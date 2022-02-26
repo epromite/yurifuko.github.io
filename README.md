@@ -2,8 +2,8 @@
 
 ###### Personal github page  
 
-> Why?:  
+> Why?:
   Yes.  
   
-> What's Hava?:  
+> What's Hava?:
   Hava nice day lmao  
