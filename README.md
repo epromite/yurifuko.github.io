@@ -3,10 +3,14 @@
 ###### Personal github page  
   
   
-> Why?:  
+> Why?  
 
 Yes.  
   
-> What's Hava?:  
+> What's Hava?  
 
-Hava nice day lmao  
+Hava nice day gottem  
+
+> How style?  
+
+Inspired by https://q66.moe/
