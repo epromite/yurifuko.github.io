@@ -1,0 +1,29 @@
+body {
+  font-family: "Poppins";
+  margin: 60px auto;
+  max-width: 800px;
+  line-height: 1.5;
+  font-size: 13.5pt;
+  background: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ),url("https://i.pinimg.com/originals/d5/25/2b/d5252b28415827d3ec04e7698bd8bb88.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.90;
+  color: #FFFFFF;
+  padding: 0 30px;
+}
+h1, h2, h3 {line-height: 1.2;}
+a:link {color: hotpink;text-decoration: none;}
+a:visited {color: hotpink;text-decoration: none;}
+a:hover {color: hotpink;text-decoration: none;}
+a:active {color: hotpink;text-decoration: none;}
+#boxshadow {
+  box-shadow: 0px 0px 20px #222222;
+}
+#takinastyling {
+  opacity: 0.95;
+  position: relative;
+  top: -50px;
+  right: -50px;
+}
