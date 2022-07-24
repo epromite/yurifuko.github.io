@@ -3,4 +3,4 @@
 
 - Inspired by [q66.moe](https://q66.moe/)
 - Font family used [Poppins](https://fonts.google.com/specimen/Poppins)
-- Icons used [Font Awesome 4.7](https://fontawesome.com/icons)
+- Icons used [Font Awesome 6.1.1](https://fontawesome.com/icons)
