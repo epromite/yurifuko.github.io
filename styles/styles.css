@@ -35,8 +35,9 @@ a:active {color: hotpink;text-decoration: none;}
   box-shadow: 0px 0px 20px #11121d;
 }
 #navbar {
+  margin: auto;
   box-shadow: 0px 0px 20px #11121d;
-  background-color:#12131a;
+  background-color: #12131a;
   height: 40px;
   width: 90%;
   border-radius: 0px 0px 25px 25px;
