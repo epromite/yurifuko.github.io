@@ -4,4 +4,4 @@
 - Inspired by [q66.moe](https://q66.moe/)
 - Font family used [Inter](https://fonts.google.com/specimen/Inter)
 - Icons used [Font Awesome 6.1.1](https://fontawesome.com/icons)
-- Characters in images: **Takina Inoue** (Lycoris Recoil), **Terraformar**
+- Characters in images: **Takina Inoue**, **Terraformar**
