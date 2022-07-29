@@ -4,9 +4,10 @@ window.mobileCheck = function() {
   return check;
 };
 
-if (mobileCheck == true) {
+//if (mobileCheck == true) {
+if ("ontouchstart" in document.documentElement) {
   //window.location.replace("mobile.html");
   alert("you are on mobile fuck you");
 } else {
-  break;
+  null;
 }
