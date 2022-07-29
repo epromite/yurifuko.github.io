@@ -2,6 +2,6 @@
 <h3>czarhex.github.io</h3>
 
 - Inspired by [q66.moe](https://q66.moe/)
-- Font family used [Inter](https://fonts.google.com/specimen/Inter)
+- Font family used [San Francisco Pro Display](https://developer.apple.com/fonts/) (Designed by Apple in California)
 - Icons used [Font Awesome 6.1.1](https://fontawesome.com/icons)
 - Characters in images: **Takina Inoue**, **Terraformar**
