@@ -4,7 +4,7 @@ window.mobileCheck = function() {
   return check;
 };
 
-//if (mobileCheck == true) {
+//if (check == true) {
 if ("ontouchstart" in document.documentElement) {
   window.location.replace("mobile.html");
   //alert("you are on mobile fuck you");
