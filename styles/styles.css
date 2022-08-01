@@ -1,9 +1,75 @@
 /* ------------ fonts ------------ */
 
-/* Designed by Apple in California - SAN FRANSISCO DISPLAY - https://developer.apple.com/fonts/ */
-@import url('https://web.archive.org/web/20220621203554if_/https://v1.fontapi.ir/css/SFProDisplay');
+/* 
+Designed by Apple in California - SAN FRANSISCO DISPLAY - https://developer.apple.com/fonts/ 
+*/
+@font-face {
+     font-family: "SF Pro Display";
+     src: url("fonts/SF-Pro-Display-Thin.otf") format("opentype");
+     src: url("fonts/SF-Pro.ttf") format("truetype");
+     font-weight: 100;
+     font-style: normal;
+}
+@font-face {
+     font-family: "SF Pro Display";
+     src: url("fonts/SF-Pro-Display-Ultralight.otf") format("opentype");
+     src: url("fonts/SF-Pro.ttf") format("truetype");
+     font-weight: 200;
+     font-style: normal;
+}
+@font-face {
+     font-family: "SF Pro Display";
+     src: url("fonts/SF-Pro-Display-Light.otf") format("opentype");
+     src: url("fonts/SF-Pro.ttf") format("truetype");
+     font-weight: 300;
+     font-style: normal;
+}
+@font-face {
+     font-family: "SF Pro Display";
+     src: url("fonts/SF-Pro-Display-Regular.otf") format("opentype");
+     src: url("fonts/SF-Pro.ttf") format("truetype");
+     font-weight: 400;
+     font-style: normal;
+}
+@font-face {
+     font-family: "SF Pro Display";
+     src: url("fonts/SF-Pro-Display-Medium.otf") format("opentype");
+     src: url("fonts/SF-Pro.ttf") format("truetype");
+     font-weight: 500;
+     font-style: normal;
+}
+@font-face {
+     font-family: "SF Pro Display";
+     src: url("fonts/SF-Pro-Display-Semibold.otf") format("opentype");
+     src: url("fonts/SF-Pro.ttf") format("truetype");
+     font-weight: 600;
+     font-style: normal;
+}
+@font-face {
+     font-family: "SF Pro Display";
+     src: url("fonts/SF-Pro-Display-Bold.otf") format("opentype");
+     src: url("fonts/SF-Pro.ttf") format("truetype");
+     font-weight: 700;
+     font-style: normal;
+}
+@font-face {
+     font-family: "SF Pro Display";
+     src: url("fonts/SF-Pro-Display-Heavy.otf") format("opentype");
+     src: url("fonts/SF-Pro.ttf") format("truetype");
+     font-weight: 800;
+     font-style: normal;
+}
+@font-face {
+     font-family: "SF Pro Display";
+     src: url("fonts/SF-Pro-Display-Black.otf") format("opentype");
+     src: url("fonts/SF-Pro.ttf") format("truetype");
+     font-weight: 900;
+     font-style: normal;
+}
 
-/* Font Awesome - https://fontawesome.com/ */
+/* 
+Font Awesome - https://fontawesome.com/ 
+*/
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css');
 
 /* ------------ i like oreos ------------ */
