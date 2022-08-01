@@ -1,6 +1,11 @@
 /* ------------ fonts ------------ */
 
 /* 
+Font Awesome - https://fontawesome.com/ 
+*/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css');
+
+/* 
 Designed by Apple in California - SAN FRANSISCO DISPLAY - https://developer.apple.com/fonts/ 
 */
 @font-face {
@@ -66,11 +71,6 @@ Designed by Apple in California - SAN FRANSISCO DISPLAY - https://developer.appl
      font-weight: 900;
      font-style: normal;
 }
-
-/* 
-Font Awesome - https://fontawesome.com/ 
-*/
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css');
 
 /* ------------ i like oreos ------------ */
 
