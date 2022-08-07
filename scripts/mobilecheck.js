@@ -6,13 +6,11 @@ window.mobileCheck = function() {
 };
 
 
-// style navbar differently on touch (bigger font)
 
 //if (check == true) {
 if ("ontouchstart" in document.documentElement) {
-  //window.location.replace("mobile");
+  window.location.replace("mobile");
   //alert("you are on mobile fuck you");
-  document.write("<ul style=\"list-style-type:none;margin:0;padding:5px;font-size:36px;\">");
 } else {
-  document.write("<ul style=\"list-style-type:none;margin:0;padding:5px;\">");
+  null;
 }
