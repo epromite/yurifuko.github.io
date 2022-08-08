@@ -7,8 +7,8 @@ window.mobileCheck = function() {
 
 
 
-//if (check == true) {
-if ("ontouchstart" in document.documentElement) {
+if (check == true) {
+//if ("ontouchstart" in document.documentElement) {
   window.location.replace("mobile");
   //alert("you are on mobile fuck you");
 } else {
