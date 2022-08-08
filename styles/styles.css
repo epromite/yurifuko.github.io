@@ -96,23 +96,56 @@ h1, h2, h3, h4 {line-height: 1;}
 h5, h6 {color: #44454b}
 
 /* links */
-a:link {color: hotpink;text-decoration: none;}
-a:visited {color: hotpink;text-decoration: none;}
-a:hover {color: hotpink;text-decoration: none;}
-a:active {color: hotpink;text-decoration: none;}
+a {color: hotpink;text-decoration: none;transition: color .3s ease-in-out}
+a:hover {color: hotpink;text-decoration: none;color: #FFAAFF;}
 
-/* shadow */
-#shadow {
+/* rounded content box */
+#contentbox {
   box-shadow: 0px 0px 20px #11121d;
+  background: rgba(18, 19, 26, 0.85);
+  height: 360px;
+  position: relative;
+  top: 120px;
+  border-radius:25px;
 }
 
 /* navbar styling */
-#navbar {
+nav {
   margin: auto;
   box-shadow: 0px 0px 20px #11121d;
-  background-color: #12131a;
-  /* height: 40px; */
+  background: rgba(18, 19, 26, 0.85);
   width: 90%;
   border-radius: 0px 0px 25px 25px;
   position: sticky;
 }
+
+/* primary contacts background - hover */
+
+#contactbg {
+  background: linear-gradient(to right, #FFAAFF, #FFDDFF);
+  background-size: 100% 100%, 0 100%;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+#contactbg:hover {
+  background-size: 0 100%, 100% 100%;
+}
+
+/* secondary contacts icons - hover */
+
+#secontact {
+  color: #696969;
+  transition: color .3s ease-in-out;
+}
+#secontact:hover {
+  color: #FFFFAA;
+}
+
+/* profile picture */
+#pfp {
+  box-shadow: -10px 0px 0px hotpink;
+  border-radius: 0px 25px 25px 0px;
+}
+
+/*  */
