@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html>
- 
+<html style="height:100%;">
+
 <head>
   <title>czar. 404.</title>
   <!-- favicon - Terraformar (Terraformars) -->
@@ -10,9 +10,9 @@
   <link rel="stylesheet" href="https://v1.fontapi.ir/css/SFProDisplay">
   
   <!-- for embed -->
-  <meta content=":D" property="og:title" />
-  <meta content="https://czarhex.github.io/404" property="og:url" />
-  <meta content="https://raw.githubusercontent.com/czarhex/czarhex.github.io/main/assets/404favicon.png" property="og:image" />
+  <meta content="i am in your walls" property="og:title">
+  <meta content="https://czarhex.github.io/404" property="og:url">
+  <meta content="https://raw.githubusercontent.com/czarhex/czarhex.github.io/main/assets/404favicon.png" property="og:image">
   <!-- -->
   
   <meta charset="utf-8">
@@ -20,7 +20,6 @@
             body {
                 font-family: "SF Pro Display";
                 text-rendering: optimizeLegibility !important;
-                margin: 250px auto;
                 max-width: 800px;
                 line-height: 1.5;
                 font-size: 13.5pt;
@@ -30,26 +29,32 @@
                 padding: 0 30px;
             }
             h1, h2, h3 {line-height: 1.2;}
-            a:link {color: #666666;text-decoration: none;}
-            a:visited {color: #666666;text-decoration: none;}
-            a:hover {color: #666666;text-decoration: none;}
-            a:active {color: #666666;text-decoration: none;}
             #leave {
                 opacity: 0.95;
                 position: relative;
                 top: -30px;
             }
+            a {
+              color: #666666;
+              transition: color .3s ease-in-out;
+              text-decoration: none;
+            }
+            a:hover {
+              color: #FFFFAA;
+            }
   </style>
 </head>
  
-<body>
-  <div style="position:relative; left:160px;">
-    <!-- image: Terraformar (Terraformars) -->
-    <img src="assets/404profile.jpg" align="left" width="200" id="leave">
-    <h1 style="position:relative; left:30px;"><b>ERROR 404</b></h1>
-    <p style="position:relative; left:30px;">This page does not exist.</p>
-    <p style="position:relative; left:30px;"><a href="https://czarhex.github.io"><b>You may leave now.</b></a></p>
+<body style="height:100%;">
+  <div style="display:flex;align-items: center;justify-content: center;">
+    <div style="position:absolute;transform: translate(0, -50%);top: 50%;width: 500px;/*! left: 50%; */margin: auto;">
+      <!-- image: Terraformar (Terraformars) -->
+      <img src="assets/404profile.jpg" id="leave" width="200" align="left">
+      <h1 style="position:relative; left:30px;"><b>ERROR 404</b></h1>
+      <p style="position:relative; left:30px;">This page does not exist.</p>
+      <p style="position:relative; left:30px;"><a href="https://czarhex.github.io"><b>You may leave now.</b></a></p>
+    </div>
   </div>
 </body>
- 
-</html> 
+
+</html>
