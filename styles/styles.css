@@ -98,4 +98,12 @@ nav {
   border-radius: 0px 25px 25px 0px;
 }
 
-/*  */
+/* projects - hover */
+
+#projecth {
+  color: #FFAAFF;
+  transition: color .3s ease-in-out;
+}
+#projecth:hover {
+  color: #FFFFAA;
+}
