@@ -103,6 +103,7 @@ nav {
 #projecth {
   color: #FFAAFF;
   transition: color .3s ease-in-out;
+  display: inline;
 }
 #projecth:hover {
   color: #FFFFAA;
