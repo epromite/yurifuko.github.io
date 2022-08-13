@@ -43,7 +43,7 @@ h5, h6 {color: #44454b}
 
 /* links */
 a {color: #FF69B4;text-decoration: none;transition: color .3s ease-in-out}
-a:hover {color: #FF90C8;text-decoration: none;}
+a:hover {color: #FFABD5;text-decoration: none;}
 
 /* rounded content box */
 #contentbox {
