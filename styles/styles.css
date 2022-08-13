@@ -42,8 +42,8 @@ h1, h2, h3, h4 {line-height: 1;}
 h5, h6 {color: #44454b}
 
 /* links */
-a {color: hotpink;text-decoration: none;transition: color .3s ease-in-out}
-a:hover {color: hotpink;text-decoration: none;color: #FFAAFF;}
+a {color: #FF69B4;text-decoration: none;transition: color .3s ease-in-out}
+a:hover {color: #FF90C8;text-decoration: none;}
 
 /* rounded content box */
 #contentbox {
@@ -86,6 +86,16 @@ nav {
   background-size: 0 100%, 100% 100%;
 }
 
+#iconbackground {
+  background-color: #222222AA;
+  padding: 5px;
+  display: inline-block;
+  width: 43px;
+  text-align: center;
+  
+  backdrop-filter: blur(20px);
+}
+
 /* secondary contacts icons - hover */
 
 #secontact {
@@ -98,7 +108,7 @@ nav {
 
 /* profile picture */
 #pfp {
-  box-shadow: -10px 0px 0px hotpink;
+  box-shadow: -10px 0px 0px #FF698FDD;
   border-radius: 0px 25px 25px 0px;
 }
 
