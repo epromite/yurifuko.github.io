@@ -32,7 +32,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-color: #141422;
+  background-color: #0e0e17;
   color: #FFFFFF;
   height: 100%;
 }
@@ -47,8 +47,8 @@ a:hover {color: hotpink;text-decoration: none;color: #FFAAFF;}
 
 /* rounded content box */
 #contentbox {
-  box-shadow: 0px 0px 20px #11121d;
-  background: rgba(18, 19, 26, 0.80);
+  box-shadow: 0px 0px 20px #11121dbd;
+  background: rgba(16, 17, 23, 0.40);
   height: 360px;
   width: 800px;
   border-radius: 25px;
@@ -56,17 +56,21 @@ a:hover {color: hotpink;text-decoration: none;color: #FFAAFF;}
   position: absolute;
   transform: translate(0, -50%);
   top: 47%;
+  
+  backdrop-filter: blur(20px);
 }
 
 /* navbar styling */
 nav {
   margin: auto;
-  box-shadow: 0px 0px 20px #11121d;
-  background: rgba(18, 19, 26, 0.85);
-  width: 90%;
+  box-shadow: 0px 0px 20px #11121dbd;
+  background: rgba(16, 17, 23, 0.70);
+  width: 75%;
   border-radius: 0px 0px 25px 25px;
   position: sticky;
   z-index: 69;
+  
+  backdrop-filter: blur(20px);
 }
 
 /* primary contacts background - hover */
@@ -107,4 +111,15 @@ nav {
 }
 #projecth:hover {
   color: #FFFFAA;
+}
+
+/* baka */
+
+#baka {
+  color: #666666DD;
+  transition: color .3s ease-in-out;
+  display: inline;
+}
+#baka:hover {
+  color: #FFFFAADD;
 }
