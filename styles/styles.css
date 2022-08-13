@@ -133,3 +133,15 @@ nav {
 #baka:hover {
   color: #FFFFAADD;
 }
+
+/* pages */
+
+#aboutme {color:#FFAAFF;}
+#contacts {color:#FF69B4;}
+#projects {color:#FF69B4;}
+#interests {color:#FF69B4;}
+
+#aboutmebox {display:initial;}
+#contactsbox {display:none;}
+#projectsbox {display:none;}
+#interestsbox {display:none;}
