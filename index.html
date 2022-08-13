@@ -26,23 +26,87 @@
   <nav>
     <div align="center">
     <ul style="list-style-type:none;margin:0;padding:5px;">
-      <li style="padding-left:15px;padding-right:15px;display:inline;"><a href="/" style="color:#FFAAFF;"><b>ABOUT ME</b></a></li>
-      <li style="padding-left:15px;padding-right:15px;display:inline;"><a href="contact"><b>CONTACT</b></a></li>
-      <li style="padding-left:15px;padding-right:15px;display:inline;"><a href="projects"><b>PROJECTS</b></a></li>
-      <li style="padding-left:15px;padding-right:15px;display:inline;"><a href="interests"><b>INTERESTS</b></a></li>
+      <li style="padding-left:15px;padding-right:15px;display:inline;"><a id="aboutmenav" href="javascript:void(0);"><b id="aboutme">ABOUT ME</b></a></li>
+      <li style="padding-left:15px;padding-right:15px;display:inline;"><a id="contactsnav" href="javascript:void(0);"><b id="contacts">CONTACT</b></a></li>
+      <li style="padding-left:15px;padding-right:15px;display:inline;"><a id="projectsnav" href="javascript:void(0);"><b id="projects">PROJECTS</b></a></li>
+      <li style="padding-left:15px;padding-right:15px;display:inline;"><a id="interestsnav" href="javascript:void(0);"><b id="interests">INTERESTS</b></a></li>
     </ul>
     </div>
   </nav>
+  <script src="scripts/pages.js"></script>
 
-  <!-- stuff -->
-  <div style="display: flex;align-items: center;justify-content: center;">
-    <div id="contentbox">
-    <a href="https://ko-fi.com/czarhex"><img src="https://avatars.githubusercontent.com/u/76652465?v=4" title="Buy me a coffee!" id="pfp" height="360" align="right"></a>
-      <div style="padding:35px;">
-        <script src="scripts/greeting.js"></script>
-        <p>I'm the definition of cool, baby</p>
+  <!-- ABOUT ME -->
+  <div id="aboutmebox">
+    <div style="display: flex;align-items: center;justify-content: center;">
+      <div id="contentbox">
+      <a href="https://ko-fi.com/czarhex"><img src="https://avatars.githubusercontent.com/u/76652465?v=4" title="Buy me a coffee!" id="pfp" height="360" align="right"></a>
+        <div style="padding:35px;">
+          <script src="scripts/greeting.js"></script>
+          <p>I'm the definition of cool, baby</p>
 
-        <h5 style="top:100px;position:relative;"><a href="(⁄ ⁄•⁄ω⁄•⁄ ⁄)" id="baka">© 2022 czarhex (*￣▽￣)b</a></h5>
+          <h5 style="top:100px;position:relative;"><a href="(⁄ ⁄•⁄ω⁄•⁄ ⁄)" id="baka">© 2022 czarhex (*￣▽￣)b</a></h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTACTS -->
+  <div id="contactsbox">
+    <div style="display: flex;align-items: center;justify-content: center;">
+      <div id="contentbox">
+      <a href="https://ko-fi.com/czarhex"><img src="https://avatars.githubusercontent.com/u/76652465?v=4" title="Buy me a coffee!" id="pfp" height="360" align="right"></a>
+        <div style="padding:35px;">
+          <ul style="list-style-type:none;margin:10px;padding:10px;margin-top:0px;">
+            <li><h2><a href="mailto:czarhex@protonmail.com"><div id="iconbackground">&nbsp;<i class="fa-solid fa-envelope" style="color:#FAFAFA"></i>&nbsp;</div><div style="background-color:#FFAAFF;padding:5px;display:inline-block;width:110px;" id="contactbg"><p style="display:inline;color:#222222;margin:12px;">E-mail</p></div></a></h2></li>
+            <li><h2><a href="https://github.com/czarhex"><div id="iconbackground">&nbsp;<i class="fa-brands fa-github-alt" style="color:#FAFAFA"></i>&nbsp;</div><div style="background-color:#FFAAFF;padding:5px;display:inline-block;width:110px;" id="contactbg"><p style="display:inline;color:#222222;margin:10px;">Github</p></div></a></h2></li>
+            <li><h2><a href="https://discord.gg/ATUuYXV7cn"><div id="iconbackground">&nbsp;<i class="fa-brands fa-discord fa-xs" style="color:#FAFAFA;"></i>&nbsp;</div><div style="background-color:#FFAAFF;padding:5px;display:inline-block;width:110px;" id="contactbg"><p style="display:inline;color:#222222;margin:5px;">Discord</p></div></a></h2></li>
+          </ul>
+          <div style="margin-left:20px;margin-top:25px;">
+            <p style="display:inline;margin:5px;"><a href="https://soundcloud.com/czarhex"><i class="fa-brands fa-soundcloud fa-lg" id="secontact"></i></a></p>
+            <p style="display:inline;margin:5px;"><a href="https://www.youtube.com/channel/UCHqKxH5JyXoF5HSxVkGBXWQ"><i class="fa-brands fa-youtube fa-lg" id="secontact"></i></a></p>
+            <p style="display:inline;margin:5px;"><a href="https://twitch.tv/czarhex"><i class="fa-brands fa-twitch fa-lg" id="secontact"></i></a></p>
+            <p style="display:inline;margin:5px;"><a href="https://open.spotify.com/user/31tz7ppsnrxtosagacw5kzzj4gxu"><i class="fa-brands fa-spotify fa-lg" id="secontact"></i></a></p>
+            <p style="display:inline;margin:5px;"><a href="https://reddit.com/u/czarhex"><i class="fa-brands fa-reddit fa-lg" id="secontact"></i></a></p>
+            <p style="display:inline;margin:5px;"><a href="https://myanimelist.net/profile/czarhex"><i class="si si-myanimelist" id="secontact" style="font-size:33px;position:relative;top:-23px;"></i></a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PROJECTS -->
+  <div id="projectsbox">
+    <div style="display: flex;align-items: center;justify-content: center;">
+      <div id="contentbox">
+      <a href="https://ko-fi.com/czarhex"><img src="https://avatars.githubusercontent.com/u/76652465?v=4" title="Buy me a coffee!" id="pfp" height="360" align="right"></a>
+        <div style="padding:35px;">
+          <h2>Projects I'm involved in</h2>
+          <ul style="list-style-type:none;padding:0;margin-left:15px;">
+            <li><i class="fa-solid fa-circle-radiation" style="color:#FAFAFA;width:30px;text-align:center;"></i><a href="https://en.wikipedia.org/wiki/Manhattan_Project"><p id="projecth"><b> Manhattan</b></p></a><p style="color:#696969;display:inline;"> (General)</p></li>
+            <li><i class="fa-brands fa-apple" style="color:#FAFAFA;width:30px;text-align:center;"></i><a href="https://github.com/SlippingGittys-Discord-Themes/surCord"><p id="projecth"><b> surCord</b></p></a><p style="color:#696969;display:inline;"> (Contributor)</p></li>
+            <li><i class="fa-solid fa-shield-halved" style="color:#FAFAFA;width:30px;text-align:center;"></i><a href="https://www.centurionmc.club"><p id="projecth"><b> CenturionMC</b></p></a><p style="color:#696969;display:inline;"> (Owner)</p></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SKILLS & INTERESTS -->
+  <div id="interestsbox">
+    <div style="display: flex;align-items: center;justify-content: center;">
+      <div id="contentbox">
+      <a href="https://ko-fi.com/czarhex"><img src="https://avatars.githubusercontent.com/u/76652465?v=4" title="Buy me a coffee!" id="pfp" height="360" align="right"></a>
+        <div style="padding:35px;">
+          <h2>Skills && Interests</h2>
+          <ul style="margin-left:30px;padding:0;">
+            <li style="margin:0px 0;">Graphic & technical design</li>
+            <li style="margin:0px 0;">Audio tech & Music production</li>
+            <li style="margin:0px 0;">Video editing</li>
+            <li style="margin:0px 0;">Retro hardware + small computers</li>
+            <li style="margin:0px 0;">Light web development</li>
+            <li style="margin:0px 0;">Linux</li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
