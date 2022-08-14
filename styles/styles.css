@@ -58,6 +58,9 @@ a:hover {color: #FFABD5;text-decoration: none;}
   top: 47%;
   
   backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  
+  animation: fade_in_show 1s;
 }
 
 /* navbar styling */
@@ -71,6 +74,7 @@ nav {
   z-index: 69;
   
   backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
 }
 
 /* primary contacts background - hover */
@@ -94,6 +98,7 @@ nav {
   text-align: center;
   
   backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
 }
 
 /* secondary contacts icons - hover */
@@ -145,3 +150,17 @@ nav {
 #contactsbox {display:none;}
 #projectsbox {display:none;}
 #interestsbox {display:none;}
+
+/* animation */
+
+@keyframes fade_in_show {
+  0% {
+    opacity: 0;
+    backdrop-filter opacity(0);
+  }      
+     }
+  100% {
+    opacity: 1;
+    backdrop-filter opacity(1);
+  }
+}
