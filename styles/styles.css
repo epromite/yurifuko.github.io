@@ -27,7 +27,7 @@ body {
   margin: auto;
   max-width: 800px;
   line-height: 1.5;
-  font-size: 13.5pt;
+  font-size: 15.5pt;
   background: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ),url("/assets/background1.gif") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -84,16 +84,22 @@ nav {
   background-position: 100% 100%, 0 100%;
   background-repeat: no-repeat;
   transition: background-size 400ms;
+  
+  background-color:#FFAAFF;
+  padding:5px;
+  display:inline-block;
+  text-align: center;
+  width: 120px;
 }
 #contactbg:hover {
   background-size: 0 100%, 100% 100%;
 }
 
 #iconbackground {
-  background-color: #222222AA;
+  background: rgba(33, 33, 33, 0.7);
   padding: 5px;
   display: inline-block;
-  width: 43px;
+  width: 45px;
   text-align: center;
   
   backdrop-filter: blur(20px);
