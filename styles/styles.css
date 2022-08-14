@@ -18,6 +18,7 @@ Designed by Apple in California - SAN FRANSISCO DISPLAY - https://developer.appl
 /* ------------ i like oreos ------------ */
 html {
   height: 100%;
+  animation: fade_in_show .7s ease-in-out;
 }
 
 body {
@@ -59,8 +60,6 @@ a:hover {color: #FFABD5;text-decoration: none;}
   
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  
-  animation: fade_in_show 1s;
 }
 
 /* navbar styling */
@@ -156,10 +155,10 @@ nav {
 @keyframes fade_in_show {
   0% {
     opacity: 0;
-    backdrop-filter opacity(0);
+    backdrop-filter: opacity(0);
   }
   100% {
     opacity: 1;
-    backdrop-filter opacity(1);
+    backdrop-filter: opacity(1);
   }
 }
