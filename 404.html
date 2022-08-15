@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html style="height:100%;">
+<html style="height:100%;animation: fade_in_show .7s ease-in-out;">
 
 <head>
   <title>czar. 404.</title>
@@ -7,7 +7,6 @@
   <link rel="icon" type="image/x-icon" href="assets/404favicon.png">
   
   <!-- Font designed by Apple in California - SAN FRANSISCO DISPLAY - https://developer.apple.com/fonts/ -->
-  <!-- <link rel="stylesheet" href="https://v1.fontapi.ir/css/SFProDisplay"> -->
   <link rel="stylesheet" href="styles/font.css">
   
   <!-- for embed -->
@@ -24,7 +23,6 @@
                 line-height: 1.5;
                 font-size: 13.5pt;
                 background-color: #060606;
-                opacity: 0.90;
                 color: #FFFFFF;
                 padding: 0 30px;
             }
@@ -41,6 +39,16 @@
             }
             a:hover {
               color: #FFFFAA;
+            }
+            @keyframes fade_in_show {
+              0% {
+                opacity: 0;
+                backdrop-filter: opacity(0);
+              }
+              100% {
+                opacity: 1;
+                backdrop-filter: opacity(1);
+              }
             }
   </style>
 </head>
