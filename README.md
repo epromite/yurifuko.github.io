@@ -1,6 +1,6 @@
 ** **
 
-<a href="https://ko-fi.com/yurifuko"><img src="https://avatars.githubusercontent.com/u/76652465?v=4" align="right" height="240"></a>
+<a href="https://ko-fi.com/yurifuko"><img src="https://avatars.githubusercontent.com/u/76652465?v=4" align="right" height="235"></a>
 
 <h1><a href="https://yurifuko.github.io/">yurifuko.github.io</a></h1>
 
