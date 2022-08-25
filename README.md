@@ -5,7 +5,7 @@
 <h1><a href="https://yurifuko.github.io/">yurifuko.github.io</a></h1>
 
 - Inspired by [q66.moe](https://q66.moe/)
-- Font family used [San Francisco Pro Display](https://developer.apple.com/fonts/)
+- Font family used [San Francisco](https://developer.apple.com/fonts/)
 - Icons used [Font Awesome](https://fontawesome.com/icons), [SimpleIcons](https://simpleicons.org/)
 
 <br>
