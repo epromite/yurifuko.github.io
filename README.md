@@ -1,8 +1,8 @@
 ** **
 
-<a href="https://ko-fi.com/czarhex"><img src="https://avatars.githubusercontent.com/u/76652465?v=4" align="right" height="240"></a>
+<a href="https://ko-fi.com/yurifuko"><img src="https://avatars.githubusercontent.com/u/76652465?v=4" align="right" height="240"></a>
 
-<h1><a href="https://czarhex.github.io/">czarhex.github.io</a></h1>
+<h1><a href="https://yurifuko.github.io/">yurifuko.github.io</a></h1>
 
 - Inspired by [q66.moe](https://q66.moe/)
 - Font family used [San Francisco Pro Display](https://developer.apple.com/fonts/)
