@@ -39,7 +39,8 @@ body {
 }
 
 /* love me some head */
-h1, h2, h3, h4 {line-height: 1.2;}
+h1, h3, h4 {line-height: 1.2;}
+h2 {line-height: 1;}
 h5, h6 {color: #44454b}
 
 /* links */
