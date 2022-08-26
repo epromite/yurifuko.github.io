@@ -10,11 +10,7 @@
 
 <br>
 
-Tested on Firefox 103 (+ mobile), Chromium 104 & Epiphany 42 (webkit2)  
+Tested on Firefox 104 (+ mobile), Chromium 104 & Epiphany 42 (webkit2)  
 other/older browsers might not render stuff (e.g. blur) properly
-
-** **
-
-<img src="assets/Screenshot from 2022-08-26 16-09-25.png">
 
 ** **
