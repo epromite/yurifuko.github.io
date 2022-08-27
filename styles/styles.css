@@ -1,0 +1,240 @@
+/* ------------ fonts ------------ */
+
+/* 
+Font Awesome - https://fontawesome.com/ 
+*/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css');
+
+/*
+Simple Icons - https://github.com/simple-icons/simple-icons-font
+*/
+@import url('https://cdn.jsdelivr.net/npm/simple-icons-font@v5/font/simple-icons.min.css');
+
+/* 
+Designed by Apple in California - SAN FRANSISCO DISPLAY - https://developer.apple.com/fonts/ 
+*/
+@import url("https://rawcdn.githack.com/yurifuko/SanFranciscoFontCSS/a4610187cea84b884f8c054d7118aff1496a9b01/SFFont.css");
+
+/* ------------ i like oreos ------------ */
+html {
+  height: 100%;
+  animation: fade_in_show .7s ease-in-out;
+}
+
+body {
+  font-family: 'SF Pro Display';
+  text-rendering: optimizeLegibility;
+  margin: auto;
+  line-height: 1.35;
+  font-size: 1em;
+  background: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ),url("/assets/background1.gif") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #b0b0ff;
+  color: #FFFFFF;
+  height: 100%;
+}
+
+/* love me some head */
+h1 {line-height: 1;font-size:2.5em}
+h2 {line-height: 1;margin: 0.4em;}
+h3, h4 {line-height: 1.2;}
+h5, h6 {color: #44454b}
+
+h1, p {margin-top: 1rem;margin-bottom: 1rem;}
+
+/* links */
+a {color: #FF69B4;text-decoration: none;transition: color .3s ease-in-out}
+a:hover {color: #FFABD5;text-decoration: none;}
+
+/* mobile css */
+@media (min-width: 782px) {
+  #contactslist {
+    list-style-type: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 0em;
+    padding: 0.65em;
+    margin: 0;
+  }
+  #secontactlist {
+    list-style-type: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 0.65em;
+    padding: 0;
+    margin: 0;
+    height: 1em;
+  }
+  #contentbox {
+    width: 47em;
+    height: 25em;
+  }
+  #mbt {
+    font-size: 1.4em;
+  }
+}
+
+@media (max-width: 782px) {
+  #contactslist {
+    list-style-type: none;
+    display: intiial;
+    padding: 10px;
+    margin: 0;
+    scale: 1.2;
+  }
+  #secontactlist {
+    list-style-type: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 0.65em;
+    padding: 0;
+    margin: 0;
+    top: 1.35em;
+    position: relative;
+    font-size: 1.15em;
+  }
+  #contentbox {
+    width: 80%;
+    font-size: 1.25em;
+  }
+}
+
+
+/* rounded content box */
+#contentbox {
+  box-shadow: 0px 0px 20px #11121dbd;
+  background: rgba(16, 17, 23, 0.40);
+  border-radius: 1em;
+
+  position: absolute;
+  transform: translate(0, -50%);
+  top: 50%;
+  
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  
+  text-align: center;
+  padding: 1.5em;
+  
+  outline-color: #11111160;
+  outline-style: outset;
+  outline-width: 2px;
+}
+
+/* navbar styling */
+nav {
+  margin: auto;
+  box-shadow: 0px 0px 20px #11121dbd;
+  background: rgba(16, 17, 23, 0.70);
+  width: 9em;
+  border-radius: 0px 0px 25px 25px;
+  position: sticky;
+  z-index: 69;
+  
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  
+  font-size: 2em;
+}
+
+/* primary contacts background - hover */
+
+#contactbg {
+  background: linear-gradient(to right, #FFAAFF, #FFDDFF);
+  background-size: 100% 100%, 0 100%;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+  
+  background-color:#FFAAFF;
+  padding:5px;
+  display:inline-block;
+  text-align: center;
+  width: 105px;
+}
+#contactbg:hover {
+  background-size: 0 100%, 100% 100%;
+}
+
+#iconbackground {
+  background: rgba(33, 33, 33, 0.7);
+  padding: 5px;
+  display: inline-block;
+  width: 45px;
+  text-align: center;
+  
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+/* secondary contacts icons - hover */
+
+#secontact {
+  color: #696969;
+  transition: color .3s ease-in-out;
+}
+#secontact:hover {
+  color: #FFFFAA;
+}
+
+/* avatar */
+#avi {
+  border-radius: 1em;
+  margin: auto;
+  display: block;
+  
+  background-image: url("/assets/avit.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+  height: 10em;
+  width: 13em;
+}
+
+/* projects - hover */
+
+#projecth {
+  color: #FFAAFF;
+  transition: color .3s ease-in-out;
+  display: inline;
+}
+#projecth:hover {
+  color: #FFFFAA;
+}
+
+/* baka */
+
+#baka {
+  color: #666666DD;
+  transition: color .3s ease-in-out;
+  display: inline;
+}
+#baka:hover {
+  color: #FFFFAADD;
+}
+
+/* pages */
+
+#home {color:#FFAAFF;}
+#projects {color:#FF69B4;}
+#interests {color:#FF69B4;}
+
+#homebox {display:initial;}
+#projectsbox {display:none;}
+#interestsbox {display:none;}
+
+/* animation */
+
+@keyframes fade_in_show {
+  0% {
+    opacity: 0;
+    backdrop-filter: opacity(0);
+  }
+  100% {
+    opacity: 1;
+    backdrop-filter: opacity(1);
+  }
+}
