@@ -23,10 +23,10 @@ html {
 
 body {
   font-family: 'SF Pro Display';
-  text-rendering: optimizeLegibility !important;
+  text-rendering: optimizeLegibility;
   margin: auto;
   max-width: 800px;
-  line-height: 1.5;
+  line-height: 1.35;
   font-size: 14.5pt;
   background: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ),url("/assets/background1.gif") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -39,8 +39,8 @@ body {
 }
 
 /* love me some head */
-h1, h3, h4 {line-height: 1.2;}
-h2 {line-height: 1;}
+h1, h2 {line-height: 1;}
+h3, h4 {line-height: 1.2;}
 h5, h6 {color: #44454b}
 
 /* links */
