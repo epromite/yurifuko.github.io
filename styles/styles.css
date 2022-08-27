@@ -105,7 +105,9 @@ a:hover {color: #FFABD5;text-decoration: none;}
 
 /* rounded content box */
 #contentbox {
-  box-shadow: 0px 0px 20px #11121dbd;
+  -webkit-box-shadow: 0px 0px 20px #06070bf2;
+  -moz-box-shadow: 0px 0px 20px #06070bf2;
+  box-shadow: 0px 0px 20px #06070bf2;
   background: rgba(16, 17, 23, 0.40);
   border-radius: 1em;
 
