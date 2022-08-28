@@ -2,4 +2,4 @@ var r_text = ["I am hungry", "Religion is retarded", "Sick bro", "Always give up
 
 var i = Math.floor(r_text.length * Math.random()); 
 
-document.write("<p><i>“" + r_text[i]  + "”</i></p>"); 
+document.write("<i>“" + r_text[i]  + "”</i>"); 

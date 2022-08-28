@@ -143,6 +143,28 @@ nav {
   font-size: 2em;
 }
 
+/* hover part under name header */
+
+.hoverpart .quote {
+  opacity: 0;
+  transition-duration: .3s;
+}
+.hoverpart:hover .who {
+  opacity: 0;
+  transition-duration: .3s;
+}
+.hoverpart:hover .quote {
+  opacity: 1;
+  transition-duration: .3s;
+}
+.quote {
+  position: relative;
+  top: -2.3em;
+}
+.hoverpart {
+  height: 2em;
+}
+
 /* primary contacts background - hover */
 
 #contactbg {
