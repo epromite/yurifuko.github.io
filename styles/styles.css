@@ -75,7 +75,7 @@ a:hover {color: #FFABD5;text-decoration: none;}
   #mbt {
     font-size: 1.4em;
   }
-  #cardarrows {gap:45em;top:-12.3em;position:relative;}
+  #cardarrows {gap:44em;top:-12.3em;position:relative;}
   #card {height:18em;}
   #projectimageright {
     float: right;
@@ -251,9 +251,9 @@ nav {
 #card {
   text-align: left;
   
-  -webkit-box-shadow: 0px 0px 20px #06070b50;
-  -moz-box-shadow: 0px 0px 20px #06070b50;
-  box-shadow: 0px 0px 20px #06070b50;
+  -webkit-box-shadow: 0px 0px 20px #06070bc4;
+  -moz-box-shadow: 0px 0px 20px #06070bc4;
+  box-shadow: 0px 0px 20px #06070bc4;
   background: rgba(17, 17, 21, 0.66);
   border-radius: 2.5em;
   
@@ -267,12 +267,18 @@ nav {
 
 .cardshown {display:none;}
 
+/* buttons */
+
 #buttonleft {
   scale: 4;
   border: none;
   color: #FAFAFA;
   background-color: #00000000;
   transition-duration: 0.4s;
+
+  width: 2em;
+  height: 2em;
+  cursor: pointer;
 }
 #buttonright {
   scale: 4;
@@ -280,20 +286,26 @@ nav {
   color: #FAFAFA;
   background-color: #00000000;
   transition-duration: 0.4s;
+
+  width: 2em;
+  height: 2em;
+  cursor: pointer;
 }
 #buttonright:hover {scale:4.65}
 #buttonleft:hover {scale:4.65}
 #cardarrows {display:inline-flex;}
 
-/* projects images - general styling */
+/* projects images+desc - general styling */
 
 #projectimageleft, #projectimageright {
   transition: transform .2s;
   z-index: 48;
+  cursor: pointer;
 }
 #projectimageleft:hover, #projectimageright:hover {
   transform: scale(1.1);
 }
+
 #projectdesc {
   position: relative;
 }
