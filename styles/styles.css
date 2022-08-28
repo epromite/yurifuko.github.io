@@ -75,6 +75,8 @@ a:hover {color: #FFABD5;text-decoration: none;}
   #mbt {
     font-size: 1.4em;
   }
+  #cardarrows {gap:45em;top:-12.3em;position:relative;}
+  #card {height:18em;}
 }
 
 @media (max-width: 782px) {
@@ -97,9 +99,12 @@ a:hover {color: #FFABD5;text-decoration: none;}
     font-size: 1.15em;
   }
   #contentbox {
-    width: 80%;
+    width: 75%;
     font-size: 1.25em;
+    height: 30.5em;
   }
+  #cardarrows {gap:10em;top:1.5em;position:relative;scale:0.935}
+  #card {height:22em;}
 }
 
 
@@ -192,16 +197,44 @@ nav {
   width: 13em;
 }
 
-/* projects - hover */
+/* projects cards */
 
-#projecth {
-  color: #FFAAFF;
-  transition: color .3s ease-in-out;
-  display: inline;
+#card {
+  text-align: left;
+  
+  -webkit-box-shadow: 0px 0px 20px #06070b50;
+  -moz-box-shadow: 0px 0px 20px #06070b50;
+  box-shadow: 0px 0px 20px #06070b50;
+  background: rgba(16, 17, 23, 0.40);
+  border-radius: 2.5em;
+  
+  padding: 1.5em;
+  width: 80%;
+  
+  margin: auto;
+  top: 0.5em;
+  position: relative;
 }
-#projecth:hover {
-  color: #FFFFAA;
+
+.cardshown {display:none;}
+
+#buttonleft {
+  scale: 4;
+  border: none;
+  color: #FAFAFA;
+  background-color: #00000000;
+  transition-duration: 0.4s;
 }
+#buttonright {
+  scale: 4;
+  border: none;
+  color: #FAFAFA;
+  background-color: #00000000;
+  transition-duration: 0.4s;
+}
+#buttonright:hover {scale:4.65}
+#buttonleft:hover {scale:4.65}
+#cardarrows {display:inline-flex;}
 
 /* baka */
 
@@ -236,3 +269,4 @@ nav {
     backdrop-filter: opacity(1);
   }
 }
+

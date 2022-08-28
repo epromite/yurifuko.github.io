@@ -20,9 +20,9 @@
   <nav>
     <div align="center">
     <ul style="list-style-type:none;margin:0;padding:5px;">
-      <li style="padding-left:15px;padding-right:15px;display:inline;"><a id="homenav" href="javascript:void(0);"><i class="fa-solid fa-house-user" id="home" style="color: rgb(255, 170, 255);"></i></a></li>
-      <li style="padding-left:15px;padding-right:15px;display:inline;"><a id="projectsnav" href="javascript:void(0);"><i class="fa-solid fa-diagram-project" id="projects" style="color: rgb(255, 105, 180);"></i></a></li>
-      <li style="padding-left:15px;padding-right:15px;display:inline;"><a id="interestsnav" href="javascript:void(0);"><i class="fa-solid fa-heart" id="interests" style="color: rgb(255, 105, 180);"></i></a></li>
+      <li style="padding-left:15px;padding-right:15px;display:inline;"><a id="homenav" href="javascript:void(0);"><i class="fa-solid fa-house-user" id="home"></i></a></li>
+      <li style="padding-left:15px;padding-right:15px;display:inline;"><a id="projectsnav" href="javascript:void(0);"><i class="fa-solid fa-diagram-project" id="projects"></i></a></li>
+      <li style="padding-left:15px;padding-right:15px;display:inline;"><a id="interestsnav" href="javascript:void(0);"><i class="fa-solid fa-heart" id="interests"></i></a></li>
     </ul>
     </div>
   </nav>
@@ -68,11 +68,43 @@
       <div id="contentbox">
         <div>
           <h2>Projects I'm involved in</h2>
-          <ul style="list-style-type:none;padding:0;margin-left:15px;text-align: initial;" id="mbt">
-            <li><i class="fa-solid fa-circle-radiation" style="color:#FAFAFA;width:30px;text-align:center;"></i><a href="https://en.wikipedia.org/wiki/Manhattan_Project" target="_blank" rel="noopener noreferrer"><p id="projecth"><b> Manhattan</b></p></a><p style="color:#696969;display:inline;font-family:'SF Mono';"> (General)</p></li>
-            <li><i class="fa-brands fa-apple" style="color:#FAFAFA;width:30px;text-align:center;"></i><a href="https://github.com/SlippingGittys-Discord-Themes/surCord" target="_blank" rel="noopener noreferrer"><p id="projecth"><b> surCord</b></p></a><p style="color:#696969;display:inline;font-family:'SF Mono';"> (Contributor)</p></li>
-            <li><i class="fa-solid fa-shield-halved" style="color:#FAFAFA;width:30px;text-align:center;"></i><a href="https://www.centurionmc.club" target="_blank" rel="noopener noreferrer"><p id="projecth"><b> CenturionMC</b></p></a><p style="color:#696969;display:inline;font-family:'SF Mono';"> (Owner)</p></li>
-          </ul>
+          <div class="cardshown" style="display: initial;">
+            <div id="card">
+              <h1>Project 1</h1>
+              <p>Description 123456789 description description description.</p>
+            </div>
+          </div>
+          <div class="cardshown" style="display: none;">
+            <div id="card">
+              <h1>Project 2</h1>
+              <p>Description 123456789 description description description.</p>
+            </div>
+          </div>
+        <div class="cardshown" style="display: none;">
+          <div id="card">
+            <h1>Project 3</h1>
+            <p>Description 123456789 description description description.</p>
+          </div>
+        </div>
+        <div class="cardshown" style="display: none;">
+          <div id="card">
+            <h1>Project 4</h1>
+            <p>Description 123456789 description description description.</p>
+          </div>
+        </div>
+        <div class="cardshown" style="display: none;">
+          <div id="card">
+            <h1>Project 5</h1>
+            <p>Description 123456789 description description description.</p>
+          </div>
+        </div>
+        
+        <div id="cardarrows">
+          <button id="buttonleft" onclick="plusDivs(-1)">❮</button>
+          <button id="buttonright" onclick="plusDivs(1)">❯</button>
+        </div>
+
+        <script src="scripts/slidecards.js"></script>
         </div>
       </div>
     </div>
