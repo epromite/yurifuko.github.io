@@ -169,6 +169,11 @@ nav {
   
   font-size: 2em;
 }
+#navitem {
+  padding-left: 15px;
+  padding-right: 15px;
+  display: inline;
+}
 
 /* hover part under name header */
 
