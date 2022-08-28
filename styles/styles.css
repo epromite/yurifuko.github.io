@@ -77,6 +77,25 @@ a:hover {color: #FFABD5;text-decoration: none;}
   }
   #cardarrows {gap:45em;top:-12.3em;position:relative;}
   #card {height:18em;}
+  #projectimageright {
+    float: right;
+    position: relative;
+    padding: 1.5em;
+    border-radius: 3em;
+
+    top: -0.3em;
+  }
+  #projectimageleft {
+    float: left;
+    position: relative;
+    padding: 1.5em;
+    border-radius: 3em;
+
+    top: -0.3em;
+  }
+  #projectdesc {
+    padding: 1rem;
+  }
 }
 
 @media (max-width: 782px) {
@@ -105,6 +124,14 @@ a:hover {color: #FFABD5;text-decoration: none;}
   }
   #cardarrows {gap:10em;top:1.5em;position:relative;scale:0.935}
   #card {height:22em;}
+  #projectimageleft, #projectimageright {
+    margin: auto;
+    display: block;
+    border-radius: 1em;
+    scale: 0.85;
+    margin-bottom: -1rem;
+    margin-top: -1.5rem;
+  }
 }
 
 
@@ -258,16 +285,76 @@ nav {
 #buttonleft:hover {scale:4.65}
 #cardarrows {display:inline-flex;}
 
-/* baka */
+/* projects images - general styling */
 
-#baka {
-  color: #666666DD;
-  transition: color .3s ease-in-out;
+#projectimageleft, #projectimageright {
+  transition: transform .2s;
+  z-index: 48;
+}
+#projectimageleft:hover, #projectimageright:hover {
+  transform: scale(1.1);
+}
+#projectdesc {
+  position: relative;
+}
+
+/* skills+interests langs */
+#langs {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  font-size: 2.55em;
+  line-height: 0.5;
+}
+#langitem {
   display: inline;
+  padding-left: 5px;
+  padding-right: 5px;
 }
-#baka:hover {
-  color: #FFFFAADD;
+#spilist {
+  margin: 0 auto;
+  display: table;
 }
+
+/* tools */
+#toolslist {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  font-size: 1.55em;
+  line-height: 0.5;
+}
+#tool {
+  display: inline;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* highlight hover */
+.highlighthover {
+  transition: filter .3s ease-in-out;
+}
+.highlighthover:hover {
+  filter: brightness(200%);
+}
+
+/* tool colors */
+.toolnvim {color:#57A143;}
+.toolvs {color:#5C2D91;}
+.toollinux {color:#FCC624;}
+.toolgnome {color:#4A86CF;}
+
+/* lang colors */
+.langcpp {color:#2386d1;}
+.langlua {color:#2C2D72;}
+.langhtml {color:#E34F26;}
+.langcss {color:#1572B6;}
+.langsass {color:#CC6699;}
+.langjs {color:#F7DF1E;}
+.langbash {color:#86e95c;}
+.langgit {color:#F05032;}
 
 /* pages */
 
