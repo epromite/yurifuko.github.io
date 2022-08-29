@@ -339,6 +339,7 @@ a:hover {color: #FFABD5;text-decoration: none;}
 
 #projectdesc {
   position: relative;
+  top: 1em;
 }
 
 /* skills+interests langs */
