@@ -120,7 +120,7 @@ a:hover {color: #FFABD5;text-decoration: none;}
 
   /* avatar sizing */
   #avi {
-    background-image: url("/assets/n1.png");
+    background-image: url("/assets/avi_full.webp");
     height: 11em;
     width: 22em;
     
@@ -191,7 +191,7 @@ a:hover {color: #FFABD5;text-decoration: none;}
 
   /* avatar sizing */
   #avi {
-    background-image: url("/assets/n2.png");
+    background-image: url("/assets/avi_small.webp");
     height: 11em;
     width: 11em;
 
@@ -442,4 +442,3 @@ a:hover {color: #FFABD5;text-decoration: none;}
     backdrop-filter: opacity(1);
   }
 }
-
