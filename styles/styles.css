@@ -120,9 +120,9 @@ a:hover {color: #FFABD5;text-decoration: none;}
 
   /* avatar sizing */
   #avi {
-    background-image: url("/assets/avi_full.webp");
+    background-image: url("https://avatars.githubusercontent.com/u/76652465?v=4");
     height: 11em;
-    width: 22em;
+    width: 11em;
     
     border-radius: 1em;
   }
@@ -191,7 +191,7 @@ a:hover {color: #FFABD5;text-decoration: none;}
 
   /* avatar sizing */
   #avi {
-    background-image: url("/assets/avi_small.webp");
+    background-image: url("https://avatars.githubusercontent.com/u/76652465?v=4");
     height: 11em;
     width: 11em;
 
