@@ -27,7 +27,7 @@ body {
   margin: auto;
   line-height: 1.35;
   font-size: 1em;
-  background: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ),url("/assets/background1.gif") no-repeat center center fixed;
+  background: linear-gradient( rgba(0,0,0,.35), rgba(0,0,0,.35) ),url("/assets/BG2.webp") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -102,7 +102,7 @@ a:hover {color: #FFABD5;text-decoration: none;}
   nav {
     margin: auto;
     box-shadow: 0px 0px 20px #11121dbd;
-    background: rgba(16, 17, 23, 0.50);
+    background: rgba(14, 15, 21, 0.75);
     width: 9em;
     border-radius: 0px 0px 25px 25px;
     position: sticky;
@@ -161,7 +161,7 @@ a:hover {color: #FFABD5;text-decoration: none;}
   /* navbar styling - side */
   nav {
     box-shadow: 0px 0px 20px #11121dbd;
-    background: rgba(16, 17, 23, 0.50);
+    background: rgba(14, 15, 21, 0.75);
     border-radius: 25px 0px 0px 25px;
     position: sticky;
     z-index: 69;
@@ -191,7 +191,7 @@ a:hover {color: #FFABD5;text-decoration: none;}
   -webkit-box-shadow: 0px 0px 20px #06070bf2;
   -moz-box-shadow: 0px 0px 20px #06070bf2;
   box-shadow: 0px 0px 20px #06070bf2;
-  background: rgba(16, 17, 23, 0.40);
+  background: rgba(14, 15, 21, 0.75);
   border-radius: 1em;
 
   position: absolute;
