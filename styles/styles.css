@@ -26,14 +26,10 @@ body {
   text-rendering: optimizeLegibility;
   margin: auto;
   line-height: 1.35;
-  font-size: 1em;
-  background: linear-gradient( rgba(0,0,0,.35), rgba(0,0,0,.35) ),url("/assets/BG2.webp") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-color: #0f0f1a;
-  color: #FFFFFF;
+  font-size: 13pt;
+
+  background-color: #f1f1f1;
+  color: #1f1f22;
   height: 100%;
 }
 
@@ -46,145 +42,29 @@ h5, h6 {color: #44454b}
 h1, p {margin-top: 1rem;margin-bottom: 1rem;}
 
 /* links */
-a {color: #FF69B4;text-decoration: none;transition: color .3s ease-in-out}
-a:hover {color: #FFABD5;text-decoration: none;}
+a {color: #FF69B4;text-decoration: none;}
+a:hover {text-decoration: underline;}
 
-/* mobile css */
-@media (min-width: 782px) {
-  #contactslist {
-    list-style-type: none;
-    display: inline-flex;
-    flex-wrap: wrap;
-    gap: 0em;
-    padding: 0.65em;
-    margin: 0;
-  }
-  #secontactlist {
-    list-style-type: none;
-    display: inline-flex;
-    flex-wrap: wrap;
-    gap: 0.65em;
-    padding: 0;
-    margin: 0;
-    height: 1em;
-  }
-  #contentbox {
-    width: 47em;
-    height: 25em;
-  }
-  #mbt {
-    font-size: 1.4em;
-  }
-  #cardarrows {gap:44em;top:-12.3em;position:relative;}
-  #card {height:18em;}
-  #projectimageright {
-    float: right;
-    position: relative;
-    padding: 1.5em;
-    border-radius: 3em;
+/* navbar */
+nav {
+  margin: auto;
+  position: sticky;
+  z-index: 69;
 
-    top: -0.3em;
-  }
-  #projectimageleft {
-    float: left;
-    position: relative;
-    padding: 1.5em;
-    border-radius: 3em;
+  font-size: 17pt;
 
-    top: -0.3em;
-  }
-  #projectdesc {
-    padding: 1rem;
-    top: 1.15em;
-  }
-
-  /* navbar styling - top */
-  nav {
-    margin: auto;
-    box-shadow: 0px 0px 20px #11121dbd;
-    background: rgba(14, 15, 21, 0.75);
-    width: 9em;
-    border-radius: 0px 0px 25px 25px;
-    position: sticky;
-    z-index: 69;
-  
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-  
-    font-size: 1.75em;
-  }
-  #navitem {
-    padding-left: 15px;
-    padding-right: 15px;
-    display: inline;
-  }
+  list-style-type: none;
 }
-
-@media (max-width: 782px) {
-  #contactslist {
-    list-style-type: none;
-    display: intiial;
-    padding: 10px;
-    margin: 0;
-    scale: 1.2;
-  }
-  #secontactlist {
-    list-style-type: none;
-    display: inline-flex;
-    flex-wrap: wrap;
-    gap: 0.65em;
-    padding: 0;
-    margin: 0;
-    top: 1.35em;
-    position: relative;
-    font-size: 1.15em;
-  }
-  #contentbox {
-    width: 75%;
-    font-size: 1.25em;
-    height: 30.5em;
-  }
-  #cardarrows {gap:10em;top:1.5em;position:relative;scale:0.935}
-  #card {height:22em;}
-  #projectimageleft, #projectimageright {
-    margin: auto;
-    display: block;
-    border-radius: 1em;
-    scale: 0.85;
-    margin-bottom: -1rem;
-    margin-top: -1.5rem;
-  }
-  #projectdesc {
-    top: -1.15em;
-  }
-
-  /* navbar styling - side */
-  nav {
-    box-shadow: 0px 0px 20px #11121dbd;
-    background: rgba(14, 15, 21, 0.75);
-    border-radius: 25px 0px 0px 25px;
-    position: sticky;
-    z-index: 69;
-  
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-  
-    font-size: 1.5em;
-
-    margin-left: auto;
-    width: 3.3rem;
-
-    display: flex;
-    transform: translate(0, -50%);
-    top: 48%;
-  }
-  #navitem {
-    padding-top: 0.6rem;
-    padding-bottom: 0.6rem;
-    margin-left: 0.35em;
-  }
+#navitem {
+  padding-left: 15px;
+  padding-right: 15px;
+  display: inline;
+  font-weight: 500;
 }
-
+.backdropblur {
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
 
 /* rounded content box */
 #contentbox {
@@ -257,15 +137,28 @@ a:hover {color: #FFABD5;text-decoration: none;}
   -webkit-backdrop-filter: blur(20px);
 }
 
-/* secondary contacts icons - hover */
+/* contacts */
+
+#secontactlist {
+  list-style-type: none;
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.35em;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  font-size: 1.25em;
+}
 
 #secontact {
-  color: #696969;
-  transition: color .3s ease-in-out;
+  color: #1f1f22;
 }
-#secontact:hover {
-  color: #FFFFAA;
+
+#listicon {
+  height: 1.5em;
 }
+
+.contacticon {color:#1f1f22;}
 
 /* avatar */
 #avi {
@@ -273,15 +166,22 @@ a:hover {color: #FFABD5;text-decoration: none;}
   height: 11em;
   width: 11em;
 
-  margin: auto;
   display: block;
   
   background-size: contain;
   background-repeat: no-repeat;
   
-  border-radius: 5000em;
+  /*border-radius: 5000em;*/
+}
+#idfk {
+  background-image: url("/assets/yes.jpg");
+  height: 23em;
+  width: 23em;
 
-  /*box-shadow: 0px 0px 20px #06070bf2;*/
+  display: block;
+  
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 /* projects cards */
@@ -389,7 +289,7 @@ a:hover {color: #FFABD5;text-decoration: none;}
 
 /* highlight hover */
 .highlighthover {
-  transition: filter .3s ease-in-out;
+  transition: filter .2s ease-in-out;
 }
 .highlighthover:hover {
   filter: brightness(200%);
@@ -417,16 +317,6 @@ a:hover {color: #FFABD5;text-decoration: none;}
   position: relative;
 }
 
-/* pages */
-
-#home {color:#FFAAFF;}
-#projects {color:#FF69B4;}
-#interests {color:#FF69B4;}
-
-#homebox {display:initial;}
-#projectsbox {display:none;}
-#interestsbox {display:none;}
-
 /* animation */
 
 @keyframes fade_in_show {
@@ -437,5 +327,47 @@ a:hover {color: #FFABD5;text-decoration: none;}
   100% {
     opacity: 1;
     backdrop-filter: opacity(1);
+  }
+}
+
+/* mobile css */
+@media (min-width: 782px) {
+  #contactslist {
+    list-style-type: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 0em;
+    padding: 0.65em;
+    margin: 0;
+  }
+  #secontactlist {
+    list-style-type: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 0.35em;
+    padding: 0;
+    margin: 0;
+    height: 1em;
+  }
+}
+
+@media (max-width: 782px) {
+  #contactslist {
+    list-style-type: none;
+    display: intiial;
+    padding: 10px;
+    margin: 0;
+    scale: 1.2;
+  }
+  #secontactlist {
+    list-style-type: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 0.65em;
+    padding: 0;
+    margin: 0;
+    top: 1.35em;
+    position: relative;
+    font-size: 1.15em;
   }
 }

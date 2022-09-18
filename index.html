@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html><head>
-  <title>ユリ不幸WWW</title>
-  <link rel="icon" type="image/x-icon" href="https://avatars.githubusercontent.com/u/76652465?v=4">
-  <link rel="apple-touch-icon" href="https://avatars.githubusercontent.com/u/76652465?v=4">
+  <title>yurifuko/~</title>
   <meta name="viewport" content="width=device-width,initial-scale=0.8,maximum-scale=1,user-scalable=0">
-  <meta property="og:title" content="ユリ不幸・の・ウェブサイト">
+  <meta property="og:title" content="yurifuko">
   <meta content="ヾ( ￣O￣)ツ" property="og:description">
   <meta content="https://yurifuko.github.io/" property="og:url">
   <meta content="#FFFFAA" data-react-helmet="true" name="theme-color">
@@ -13,25 +11,18 @@
 </head>
 
 <body>
-  <!-- nav bar -->
-  <nav>
-    <div align="center">
-    <ul style="list-style-type:none;margin:0;padding:0.25rem;">
-      <li id="navitem"><a id="homenav" href="javascript:void(0);"><i class="fa-solid fa-house-user highlighthover" id="home"></i></a></li>
-      <li id="navitem"><a id="projectsnav" href="javascript:void(0);"><i class="fa-solid fa-diagram-project highlighthover" id="projects"></i></a></li>
-      <li id="navitem"><a id="interestsnav" href="javascript:void(0);"><i class="fa-solid fa-heart highlighthover" id="interests"></i></a></li>
-    </ul>
-    </div>
-  </nav>
-  
-  <script src="scripts/pages.js"></script>
-
-  <!-- HOME -->
-  <div id="homebox" style="display: initial;">
-    <div style="display: flex;align-items: center;justify-content: center;">
-      <div id="contentbox">
-        <div id="avi"><a href="404" style="width: 50%;height: 50%;display: block;margin: auto;top: 3em;position: relative;left: 3em;"></a></div>
-        <div style="padding:15px;">
+  <header>
+    <nav>
+      <ul style="margin-top:0;padding: 0.75rem;" class="backdropblur">
+        <li id="navitem"><a href="/">home</a></li>
+        <li id="navitem"><a href="blogs">blog</a></li>
+        <li id="navitem"><a href="stuffs">stuffs</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div style="display: flex;align-items: center;justify-content: center;">
+    <div style="text-align:center;transform: translate(0, -50%);top: 48%;position:absolute;">
+          <div id="avi" style="margin:auto;"></div>
           <h1>yurifuko</h1>
 
           <div class="hoverpart">
@@ -48,135 +39,21 @@
           </div>
           <div>
             <ul id="secontactlist">
-              <li title="soundcloud/yurifuko"><a href="https://soundcloud.com/yurifuko" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-soundcloud fa-lg" id="secontact"></i></a></li>
-              <li title="yt/yurifuko"><a href="https://www.youtube.com/channel/UCHqKxH5JyXoF5HSxVkGBXWQ" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube fa-lg" id="secontact"></i></a></li>
-              <li title="ttv/yurifuko"><a href="https://twitch.tv/yurifuko" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-twitch fa-lg" id="secontact"></i></a></li>
-              <li title="spotify/yurifko"><a href="https://open.spotify.com/user/31tz7ppsnrxtosagacw5kzzj4gxu" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-spotify fa-lg" id="secontact"></i></a></li>
-              <li title="@yurifuko"><a href="https://twitter.com/yurifuko" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-twitter fa-lg" id="secontact"></i></a></li>
-              <li title="@yurifuko:matrix.org"><a href="https://matrix.to/#/@yurifuko:matrix.org" target="_blank" rel="noopener noreferrer"><i class="si si-matrix" id="secontact" style="font-size:26px;position:relative;top:-20px;"></i></a></li>
-              <li title="mal/yurifuko"><a href="https://myanimelist.net/profile/yurifuko" target="_blank" rel="noopener noreferrer"><i class="si si-myanimelist" id="secontact" style="font-size:33px;position:relative;top:-23px;"></i></a></li>
+              <li id="listicon" title="soundcloud/yurifuko"><a href="https://soundcloud.com/yurifuko" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-soundcloud fa-lg contacticon highlighthover"></i></a></li>
+              <li id="listicon" title="yt/yurifuko"><a href="https://www.youtube.com/channel/UCHqKxH5JyXoF5HSxVkGBXWQ" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube fa-lg contacticon highlighthover"></i></a></li>
+              <li id="listicon" title="ttv/yurifuko"><a href="https://twitch.tv/yurifuko" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-twitch fa-lg contacticon highlighthover"></i></a></li>
+              <li id="listicon" title="spotify/yurifuko"><a href="https://open.spotify.com/user/31tz7ppsnrxtosagacw5kzzj4gxu" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-spotify fa-lg contacticon highlighthover"></i></a></li>
+              <li id="listicon" title="@yurifuko"><a href="https://twitter.com/yurifuko" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-twitter fa-lg contacticon highlighthover"></i></a></li>
+              <li id="listicon" title="@yurifuko:matrix.org"><a href="https://matrix.to/#/@yurifuko:matrix.org" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"><i class="si si-matrix contacticon highlighthover" style="font-size:22pt;position:relative;top:-22px;"></i></a></li>
+              <li id="listicon" title="mal/yurifuko"><a href="https://myanimelist.net/profile/yurifuko" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"><i class="si si-myanimelist contacticon highlighthover" style="font-size:25pt;position:relative;top:-24px;"></i></a></li>
             </ul>
           </div>
-        </div>
-      </div>
     </div>
   </div>
-
-  <!-- PROJECTS -->
-  <div id="projectsbox" style="display: none;">
-    <div style="display: flex;align-items: center;justify-content: center;">
-      <div id="contentbox">
-        <div>
-          <h2>Projects I'm involved in</h2>
-
-          <div class="cardshown">
-            <div id="card">
-              <a href="https://github.com/yurifuko/2077cord#readme" target="_blank" rel="noopener noreferrer">
-                <img src="https://raw.githubusercontent.com/yurifuko/2077cord/main/assets/preview1.png" id="projectimageleft">
-              </a>
-              <div id="projectdesc">
-                <h1 style="font-size:2em;">2077cord</h1>
-                <p>
-                  A Discord Theme inspired by Cyberpunk 2077 UI designs.
-                  <br>
-                  <br>
-                  I'm the author.
-                </p>
-                <a href="https://github.com/yurifuko/2077cord#readme" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-cloud-arrow-down"></i><b> Website</b></a>
-              </div>
-            </div>
-          </div>
-          <div class="cardshown">
-            <div id="card">
-              <a href="https://github.com/SlippingGittys-Discord-Themes/surCord/blob/main/README.md" target="_blank" rel="noopener noreferrer">
-                <img src="https://files.catbox.moe/5rnp3e.png" id="projectimageleft">
-              </a>
-              <div id="projectdesc">
-                <h1 style="font-size:2em;">surCord</h1>
-                <p>
-                  A Discord Theme inspired by macOS &amp; Human Interface Guidelines.
-                  <br>
-                  <br>
-                  I'm a collaborator.
-                </p>
-                <a href="https://github.com/SlippingGittys-Discord-Themes/surCord/blob/main/README.md" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-cloud-arrow-down"></i><b> Website</b></a>
-              </div>
-            </div>
-          </div>
-          <div class="cardshown">
-            <div id="card">
-              <a href="https://github.com/yurifuko/AppleFontsCSS#readme" target="_blank" rel="noopener noreferrer">
-                <img src="https://raw.githubusercontent.com/yurifuko/AppleFontsCSS/main/assets/applefontscssproject.png" id="projectimageleft">
-              </a>
-              <div id="projectdesc">
-                <h1 style="font-size:2em;">Apple fonts CSS</h1>
-                <p>
-                  Fonts by Apple ported for website use and CSS projects.
-                  <br>
-                  <br>
-                  I'm the author.
-                </p>
-                <a href="https://github.com/yurifuko/AppleFontsCSS#readme" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-cloud-arrow-down"></i><b> Website</b></a>
-              </div>
-            </div>
-          </div>
-        
-          <div id="cardarrows">
-            <button id="buttonleft" onclick="plusDivs(-1)">❮</button>
-            <button id="buttonright" onclick="plusDivs(1)">❯</button>
-          </div>
-
-          <script src="scripts/slidecards.js"></script>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- SKILLS & INTERESTS -->
-  <div id="interestsbox" style="display: none;">
-    <div style="display: flex;align-items: center;justify-content: center;">
-      <div id="contentbox">
-        <div>
-          <h2>Skills &amp;&amp; Interests</h2>
-          <div style="margin:auto;">
-            <ul id="langs">
-              <li id="langitem"><a href="https://cplusplus.com/" target="_blank" rel="noopener noreferrer"><i class="si si-cplusplus langcpp highlighthover iconmove"></i></a></li>
-              <li id="langitem"><a href="https://www.lua.org/" target="_blank" rel="noopener noreferrer"><i class="si si-lua langlua highlighthover iconmove"></i></a></li>
-              <li id="langitem"><a href="https://www.w3.org/html/" target="_blank" rel="noopener noreferrer"><i class="si si-html5 langhtml highlighthover iconmove"></i></a></li>
-              <li id="langitem"><a href="https://www.w3.org/Style/CSS/" target="_blank" rel="noopener noreferrer"><i class="si si-css3 langcss highlighthover iconmove"></i></a></li>
-              <li id="langitem"><a href="https://sass-lang.com/" target="_blank" rel="noopener noreferrer"><i class="si si-sass langsass highlighthover iconmove"></i></a></li>
-              <li id="langitem"><a href="https://www.javascript.com/" target="_blank" rel="noopener noreferrer"><i class="si si-javascript langjs highlighthover iconmove"></i></a></li>
-              <li id="langitem"><a href="https://www.gnu.org/software/bash/" target="_blank" rel="noopener noreferrer"><i class="si si-gnubash langbash highlighthover iconmove"></i></a></li>
-              <li id="langitem"><a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer"><i class="si si-git langgit highlighthover iconmove"></i></a></li>
-            </ul>
-          </div>
-
-          <br>
-
-          <div id="spilist">
-            <ul style="margin:1rem;margin-left:1.85em;padding:0;text-align: initial;" id="mbt">
-              <li style="margin:0px 0;">Graphic &amp; technical design</li>
-              <li style="margin:0px 0;">Audio tech &amp; Music production</li>
-              <li style="margin:0px 0;">Video editing</li>
-              <li style="margin:0px 0;">Retro hardware + small computers</li>
-              <li style="margin:0px 0;">Light web development</li>
-              <li style="margin:0px 0;">Linux <i class="fa-brands fa-linux"></i></li>
-            </ul>
-          </div>
-
-          <div style="margin:auto;">
-            <ul id="toolslist">
-              <li id="tool"><a href="https://neovim.io/" target="_blank" rel="noopener noreferrer"><i class="si si-neovim toolnvim highlighthover"></i></a></li>
-              <li id="tool"><a href="https://github.com/microsoft/vscode" target="_blank" rel="noopener noreferrer"><i class="si si-visualstudiocode toolvs highlighthover"></i></a></li>
-              <li id="tool"><a href="https://www.linux.org/" target="_blank" rel="noopener noreferrer"><i class="si si-linux toollinux highlighthover"></i></a></li>
-              <li id="tool"><a href="https://www.gnome.org/" target="_blank" rel="noopener noreferrer"><i class="si si-gnome toolgnome highlighthover"></i></a></li>
-            </ul>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
+  <footer style="left:1em;position:fixed;bottom:1em;">© <span id="year"></span> yurifuko</footer>
+  <script type="text/javascript">
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
 
 </body>
 
