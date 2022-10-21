@@ -1,28 +1,23 @@
-/* ------------ fonts ------------ */
+/* imports */
 
-/* 
-Font Awesome - https://fontawesome.com/ 
-*/
+/* Font Awesome - https://fontawesome.com/ */
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css');
 
-/*
-Simple Icons - https://github.com/simple-icons/simple-icons-font
-*/
+/* Simple Icons - https://github.com/simple-icons/simple-icons-font */
 @import url('https://cdn.jsdelivr.net/npm/simple-icons-font@v5/font/simple-icons.min.css');
 
-/* 
-Designed by Apple in California - https://developer.apple.com/fonts/ 
-*/
-@import url("https://rawcdn.githack.com/yurifuko/AppleFontsCSS/63d11c4a50ce8ee001f70870bbe4f2752983848d/Apple-fonts.css");
+/* Inter font family */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200..900&display=swap");
 
-/* ------------ i like oreos ------------ */
+/* i like oreos */
 html {
   height: 100%;
 }
 
 body {
-  font-family: 'SF Pro Display';
-  text-rendering: optimizeLegibility;
+  font-family: 'Inter';
+  font-display: swap;
+  text-rendering: optimizeSpeed;
   margin: auto;
   line-height: 1.35;
   font-size: 13pt;
@@ -32,113 +27,29 @@ body {
   height: 100%;
 }
 
-/* love me some head */
-h1 {line-height: 1;font-size:2.5em}
-h2 {line-height: 1;margin: 0.4em;}
-h3, h4 {line-height: 1.2;}
-h5, h6 {color: #44454b}
-
 h1, p {margin-top: 1rem;margin-bottom: 1rem;}
 
 /* links */
-a {color: #FF69B4;text-decoration: none;}
-a:hover {text-decoration: underline;}
-
-/* navbar */
-nav {
-  margin: auto;
-  position: sticky;
-  z-index: 69;
-
-  font-size: 17pt;
-
-  list-style-type: none;
+a {
+  color: rgb(236,51,36); 
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
 }
-#navitem {
-  padding-left: 15px;
-  padding-right: 15px;
-  display: inline;
-  font-weight: 500;
-}
-.backdropblur {
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+a:hover {
+  color: rgb(169,47,27); 
+  text-decoration: line-through;
 }
 
 /* rounded content box */
-#contentbox {
-  -webkit-box-shadow: 0px 0px 20px #06070bf2;
-  -moz-box-shadow: 0px 0px 20px #06070bf2;
-  box-shadow: 0px 0px 20px #06070bf2;
-  background: rgba(14, 15, 21, 0.75);
-  border-radius: 1em;
-
-  position: absolute;
-  transform: translate(0, -50%);
-  top: 50%;
-  
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  
+header {
   text-align: center;
   padding: 1.5em;
 }
 
-/* hover part under name header */
+/* socials */
 
-.hoverpart .quote {
-  opacity: 0;
-  transition-duration: .3s;
-}
-.hoverpart:hover .who {
-  opacity: 0;
-  transition-duration: .3s;
-}
-.hoverpart:hover .quote {
-  opacity: 1;
-  transition-duration: .3s;
-}
-.quote {
-  position: relative;
-  top: -2.3em;
-}
-.hoverpart {
-  height: 2em;
-}
-
-/* primary contacts background - hover */
-
-#contactbg {
-  background: linear-gradient(to right, #FFAAFF, #FFDDFF);
-  background-size: 100% 100%, 0 100%;
-  background-position: 100% 100%, 0 100%;
-  background-repeat: no-repeat;
-  transition: background-size 400ms;
-  
-  background-color:#FFAAFF;
-  padding:5px;
-  display:inline-block;
-  text-align: center;
-  width: 105px;
-}
-#contactbg:hover {
-  background-size: 0 100%, 100% 100%;
-}
-
-#iconbackground {
-  background: rgba(33, 33, 33, 0.7);
-  padding: 5px;
-  display: inline-block;
-  width: 45px;
-  text-align: center;
-  
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-}
-
-/* contacts */
-
-#secontactlist {
+.socials {
   list-style-type: none;
   display: inline-flex;
   flex-wrap: wrap;
@@ -149,166 +60,39 @@ nav {
   font-size: 1.25em;
 }
 
-#secontact {
+.social-icon {
   color: #1f1f22;
 }
 
-#listicon {
+.list-icon {
   height: 1.5em;
 }
 
-.contacticon {color:#1f1f22;}
+.contacticon {color:#2b0b0b;}
 
 /* avatar */
-#avi {
+.avi {
   background-image: url("https://avatars.githubusercontent.com/u/76652465?v=4");
   height: 11em;
   width: 11em;
 
   display: block;
+  margin: auto;
   
   background-size: contain;
   background-repeat: no-repeat;
   
   /*border-radius: 5000em;*/
 }
-#idfk {
-  background-image: url("/assets/yes.jpg");
-  height: 23em;
-  width: 23em;
-
-  display: block;
-  
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-/* projects cards */
-
-#card {
-  text-align: left;
-  
-  -webkit-box-shadow: 0px 0px 20px #06070bc4;
-  -moz-box-shadow: 0px 0px 20px #06070bc4;
-  box-shadow: 0px 0px 20px #06070bc4;
-  background: rgba(17, 17, 21, 0.66);
-  border-radius: 2.5em;
-  
-  padding: 1.5em;
-  width: 80%;
-  
-  margin: auto;
-  top: 0.5em;
-  position: relative;
-}
-
-.cardshown {display:none;}
-
-/* buttons */
-
-#buttonleft {
-  scale: 4;
-  border: none;
-  color: #c6c6c6;
-  background-color: #00000000;
-  transition-duration: 0.4s;
-
-  width: 2em;
-  height: 2em;
-  cursor: pointer;
-}
-#buttonright {
-  scale: 4;
-  border: none;
-  color: #c6c6c6;
-  background-color: #00000000;
-  transition-duration: 0.4s;
-
-  width: 2em;
-  height: 2em;
-  cursor: pointer;
-}
-#buttonright:hover {color:#FFFFFF}
-#buttonleft:hover {color:#FFFFFF}
-#cardarrows {display:inline-flex;}
-
-/* projects images+desc - general styling */
-
-#projectimageleft, #projectimageright {
-  transition: transform .2s;
-  z-index: 48;
-  cursor: pointer;
-
-  width: 270px;
-  height: 230px;
-  object-fit: contain;
-}
-#projectimageleft:hover, #projectimageright:hover {
-  transform: scale(1.1);
-}
-
-#projectdesc {
-  position: relative;
-}
-
-/* skills+interests langs */
-#langs {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  position: relative;
-  font-size: 2.55em;
-  line-height: 0.5;
-  top: 2.2rem;
-}
-#langitem {
-  display: inline;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-#spilist {
-  margin: 0 auto;
-  display: table;
-}
-
-/* tools */
-#toolslist {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  position: relative;
-  font-size: 1.55em;
-  line-height: 0.5;
-}
-#tool {
-  display: inline;
-  padding-left: 5px;
-  padding-right: 5px;
-}
 
 /* highlight hover */
 .highlighthover {
-  transition: filter .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 .highlighthover:hover {
-  filter: brightness(200%);
+  filter: brightness(200%) saturate(180%);
+  -webkit-filter: brightness(200%) saturate(180%);
 }
-
-/* tool colors */
-.toolnvim {color:#57A143;}
-.toolvs {color:#5C2D91;}
-.toollinux {color:#FCC624;}
-.toolgnome {color:#4A86CF;}
-
-/* lang colors */
-.langcpp {color:#2386d1;}
-.langlua {color:#3b3d99;}
-.langhtml {color:#E34F26;}
-.langcss {color:#1572B6;}
-.langsass {color:#CC6699;}
-.langjs {color:#F7DF1E;}
-.langbash {color:#86e95c;}
-.langgit {color:#F05032;}
 
 /* */
 .iconmove {
@@ -331,15 +115,7 @@ nav {
 
 /* mobile css */
 @media (min-width: 782px) {
-  #contactslist {
-    list-style-type: none;
-    display: inline-flex;
-    flex-wrap: wrap;
-    gap: 0em;
-    padding: 0.65em;
-    margin: 0;
-  }
-  #secontactlist {
+  .socials {
     list-style-type: none;
     display: inline-flex;
     flex-wrap: wrap;
@@ -351,14 +127,7 @@ nav {
 }
 
 @media (max-width: 782px) {
-  #contactslist {
-    list-style-type: none;
-    display: intiial;
-    padding: 10px;
-    margin: 0;
-    scale: 1.2;
-  }
-  #secontactlist {
+  .socials {
     list-style-type: none;
     display: inline-flex;
     flex-wrap: wrap;

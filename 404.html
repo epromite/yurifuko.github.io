@@ -1,68 +1,33 @@
 <!DOCTYPE html>
-<html style="height:100%;animation: fade_in_show .7s ease-in-out;">
+<html lang="en">
 
-<head>
-  <title>...404</title>
-  <meta name="viewport" content="width=device-width,initial-scale=0.8">
-  <!-- Font designed by Apple in California - https://developer.apple.com/fonts/ -->
-  <link rel="stylesheet" href="https://rawcdn.githack.com/yurifuko/AppleFontsCSS/63d11c4a50ce8ee001f70870bbe4f2752983848d/Apple-fonts.css">
-  <meta content="i am in your walls" property="og:title">
-  <meta content="https://yurifuko.github.io/404" property="og:url">
-  <meta content="https://raw.githubusercontent.com/yurifuko/yurifuko.github.io/main/assets/404favicon.png" property="og:image">
-  <meta charset="utf-8">
-  <style type="text/css">
-            body {
-                font-family: "SF Pro Display";
-                text-rendering: optimizeLegibility;
-                line-height: 1.5;
-                font-size: 14.5pt;
-                background-color: #060606;
-                color: #FFFFFF;
+  <head>
+    <title>Yurifuko | 404</title>
 
-                text-align: center;
-            }
-            h1, h2, h3 {line-height: 1.2;}
-            #leave {
-                margin: auto;
-                display: block;
+    <meta name="Author" content="yurifuko">
+    <meta name="viewport" content="width=device-width,initial-scale=0.8,maximum-scale=1,user-scalable=0">
 
-                background-image: url("assets/404.jpg");
-                background-size: contain;
-                background-repeat: no-repeat;
+    <meta charset="utf-8">
 
-                width: 9em;
-                height: 13em;
-            }
-            a {
-              color: #666666;
-              transition: color .3s ease-in-out;
-              text-decoration: none;
-            }
-            a:hover {
-              color: #FFFFAA;
-            }
-            @keyframes fade_in_show {
-              0% {
-                opacity: 0;
-                backdrop-filter: opacity(0);
-              }
-              100% {
-                opacity: 1;
-                backdrop-filter: opacity(1);
-              }
-            }
-  </style>
-</head>
- 
-<body>
-  <div style="display: flex;align-items: center;justify-content: center;">
-    <div style="position: absolute;transform: translate(0, -50%);top: 50%;width: 20em;margin: auto;">
-      <div id="leave"></div>
-      <h1><b>404</b></h1>
-      <p>そのページは存在しません。</p>
-      <p><a href="/"><b>戻る</b></a></p>
+    <meta property="og:title" content="yurifuko">
+    <meta content="bio" property="og:description">
+    <meta content="https://yurifuko.github.io/" property="og:url">
+    <meta content="#550000" data-react-helmet="true" name="theme-color">
+
+    <link rel="stylesheet" href="styles/styles.css">
+  </head>
+
+  <body>
+    <div style="display: flex;align-items: center;justify-content: center;">
+      <div style="text-align:center;transform: translate(0, -50%);top: 48%;position:absolute;">
+        <h1>404</h1>
+        <p>page not found</p>
+      </div>
     </div>
-  </div>
-</body>
+    <footer style="left:1em;position:fixed;bottom:1em;pointer-events:none;">© <span id="year"></span> yurifuko</footer>
+    <script type="text/javascript">
+      document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+  </body>
 
 </html>
