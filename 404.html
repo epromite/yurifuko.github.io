@@ -1,18 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
   <head>
-    <title>Yurifuko | 404</title>
+    <title>yurifukō | 404</title>
 
     <meta name="Author" content="yurifuko">
     <meta name="viewport" content="width=device-width,initial-scale=0.8,maximum-scale=1,user-scalable=0">
 
     <meta charset="utf-8">
 
+    <link rel="shortcut icon" href="assets/favicon.png">
+    <link rel="icon" href="assets/favicon.png">
+    <link rel="apple-touch-icon" href="assets/favicon.png">
+    <link rel="mask-icon" href="assets/favicon.png">
+
     <meta property="og:title" content="yurifuko">
     <meta content="bio" property="og:description">
     <meta content="https://yurifuko.github.io/" property="og:url">
-    <meta content="#550000" data-react-helmet="true" name="theme-color">
+    <meta content="#520514" data-react-helmet="true" name="theme-color">
 
     <link rel="stylesheet" href="styles/styles.css">
   </head>
@@ -27,6 +32,16 @@
     <footer style="left:1em;position:fixed;bottom:1em;pointer-events:none;">© <span id="year"></span> yurifuko</footer>
     <script type="text/javascript">
       document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+
+    <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+    <script>
+      kofiWidgetOverlay.draw('yurifuko', {
+        'type': 'floating-chat',
+        'floating-chat.donateButton.text': 'Support Me',
+        'floating-chat.donateButton.background-color': '#323842',
+        'floating-chat.donateButton.text-color': '#fff'
+      });
     </script>
   </body>
 

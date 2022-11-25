@@ -1,4 +1,4 @@
-var r_text = ["I am hungry", "Religion is retarded", "Sick bro", "Always give up", "Don't.", "Nazi anime waifus are the best", "Sempai?", "Kid named finger:", "We do a little trolling", "Mood.", "What's good, melancholy?", "Walking on sunshine", "You like Huey Lewis And The News?", "Panzer vor!", "It's rentin' time!", "There are only 2 genders", "Don't care.", "A lie told often becomes the truth", "I choose violence", "Lick my ass onii-chan", "You suck.", "Squiddin' awesome", "Aw shit nigga", "I want to fit in", "Bitches get stitches"];
+var r_text = ["Religion is retarded", "Always give up", "Sorry to keep you waiting.", "Mood.", "What's good, melancholy?", "Walking on sunshine", "Don't care.", "A lie told often becomes the truth.", "I choose violence", "I want to fit in.", "All hope is gone", "The rain will kill us all", "まだまだこれからよ！", "If your first attempt doesn't work, give up", "あぁあぁあぁああぁ。。。", "It's only going to get worse.", "Born to die"];
 
 var i = Math.floor(r_text.length * Math.random()); 
 

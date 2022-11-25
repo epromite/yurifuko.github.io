@@ -1,18 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
   <head>
-    <title>Yurifuko</title>
+    <title>yurifukō</title>
 
     <meta name="Author" content="yurifuko">
     <meta name="viewport" content="width=device-width,initial-scale=0.8,maximum-scale=1,user-scalable=0">
 
     <meta charset="utf-8">
 
+    <link rel="shortcut icon" href="assets/favicon.png">
+    <link rel="icon" href="assets/favicon.png">
+    <link rel="apple-touch-icon" href="assets/favicon.png">
+    <link rel="mask-icon" href="assets/favicon.png">
+
     <meta property="og:title" content="yurifuko">
     <meta content="bio" property="og:description">
     <meta content="https://yurifuko.github.io/" property="og:url">
-    <meta content="#550000" data-react-helmet="true" name="theme-color">
+    <meta content="#520514" data-react-helmet="true" name="theme-color">
 
     <link rel="stylesheet" href="styles/styles.css">
   </head>
@@ -21,7 +26,7 @@
     <div style="display: flex;align-items: center;justify-content: center;">
       <div style="text-align:center;transform: translate(0, -50%);top: 48%;position:absolute;">
         <div class="avi"></div>
-        <h1>yurifuko</h1>
+        <h1>yurifukō</h1>
 
         <div>
           <p>designer, developer, artist</p>
@@ -30,15 +35,15 @@
 
         <div>
           <ul class="socials">
-            <li class="list-icon"><a href="mailto:yurifuko@proton.me" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-envelope fa-lg contacticon highlighthover"></i></a></li>
-            <li class="list-icon"><a href="https://github.com/yurifuko" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github-alt fa-lg contacticon highlighthover"></i></a></li>
-            <li class="list-icon"><a href="https://www.youtube.com/channel/UCHqKxH5JyXoF5HSxVkGBXWQ" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube fa-lg contacticon highlighthover"></i></a></li>
-            <li class="list-icon"><a href="https://twitch.tv/yurifuko" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-twitch fa-lg contacticon highlighthover"></i></a></li>
-            <li class="list-icon"><a href="https://open.spotify.com/user/31tz7ppsnrxtosagacw5kzzj4gxu" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-spotify fa-lg contacticon highlighthover"></i></a></li>
-            <li class="list-icon"><a href="https://twitter.com/yurifuko" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-twitter fa-lg contacticon highlighthover"></i></a></li>
-            <li class="list-icon"><a href="https://discord.gg/ATUuYXV7cn" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-discord fa-lg contacticon highlighthover"></i></a></li>
-            <li class="list-icon"><a href="https://matrix.to/#/@yurifuko:matrix.org" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"><i class="si si-matrix contacticon highlighthover" style="font-size:22pt;position:relative;top:-22px;"></i></a></li>
-            <li class="list-icon"><a href="https://myanimelist.net/profile/yurifuko" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"><i class="si si-myanimelist contacticon highlighthover" style="font-size:25pt;position:relative;top:-24px;"></i></a></li>
+            <li class="list-icon"><a href="mailto:yurifuko@proton.me" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-envelope fa-lg social-icon highlighthover"></i></a></li>
+            <li class="list-icon"><a href="https://github.com/yurifuko" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github-alt fa-lg social-icon highlighthover"></i></a></li>
+            <li class="list-icon"><a href="https://www.youtube.com/@yurifuko" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube fa-lg social-icon highlighthover"></i></a></li>
+            <li class="list-icon"><a href="https://twitch.tv/yurifuko" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-twitch fa-lg social-icon highlighthover"></i></a></li>
+            <li class="list-icon"><a href="https://open.spotify.com/user/31tz7ppsnrxtosagacw5kzzj4gxu" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-spotify fa-lg social-icon highlighthover"></i></a></li>
+            <li class="list-icon"><a href="https://twitter.com/yurifuko" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-twitter fa-lg social-icon highlighthover"></i></a></li>
+            <li class="list-icon"><a href="https://discord.gg/ATUuYXV7cn" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-discord fa-lg social-icon highlighthover"></i></a></li>
+            <li class="list-icon"><a href="https://matrix.to/#/@yurifuko:matrix.org" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"><i class="si si-matrix social-icon highlighthover" style="font-size:22pt;position:relative;top:-22px;"></i></a></li>
+            <li class="list-icon"><a href="https://myanimelist.net/profile/yurifuko" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"><i class="si si-myanimelist social-icon highlighthover" style="font-size:25pt;position:relative;top:-24px;"></i></a></li>
           </ul>
         </div>
       </div>
@@ -46,6 +51,16 @@
     <footer style="left:1em;position:fixed;bottom:1em;pointer-events:none;">© <span id="year"></span> yurifuko</footer>
     <script type="text/javascript">
       document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+
+    <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+    <script>
+      kofiWidgetOverlay.draw('yurifuko', {
+        'type': 'floating-chat',
+        'floating-chat.donateButton.text': 'Support Me',
+        'floating-chat.donateButton.background-color': '#323842',
+        'floating-chat.donateButton.text-color': '#fff'
+      });
     </script>
   </body>
 
