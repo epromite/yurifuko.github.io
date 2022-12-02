@@ -43,6 +43,8 @@ body {
 
 h1, p {margin-top: 1rem;margin-bottom: 1rem;}
 
+q {opacity:0.8;}
+
 /* links */
 a {
   color: rgb(236,51,36); 

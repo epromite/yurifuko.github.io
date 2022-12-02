@@ -2,4 +2,4 @@ var r_text = ["Religion is retarded", "Always give up", "Sorry to keep you waiti
 
 var i = Math.floor(r_text.length * Math.random()); 
 
-document.write("<i>“" + r_text[i]  + "”</i>"); 
+document.write("<q><cite>" + r_text[i]  + "</cite></q>"); 
