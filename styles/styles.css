@@ -2,6 +2,31 @@
 @import url('https://cdn.jsdelivr.net/npm/simple-icons-font@v5/font/simple-icons.min.css');
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200..900&display=swap");
 
+/*
+                                                    
+  - https://fontawesome.com/
+  - https://simpleicons.org/
+  - https://fonts.google.com/specimen/Inter
+
+  yurifukō production
+
+*/
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #0c0c0d;
+    color: #f1f1f1;
+  }
+  .social-icon {color:#d11b54;}
+}
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #f1f1f1;
+    color: #1f1f22;
+  }
+  .social-icon {color:#2b0b16;}
+}
+
 html {
   height: 100%;
 }
@@ -13,9 +38,6 @@ body {
   margin: auto;
   line-height: 1.35;
   font-size: 13pt;
-
-  background-color: #f1f1f1;
-  color: #1f1f22;
   height: 100%;
 }
 
@@ -45,8 +67,6 @@ a:hover {
   position: relative;
   font-size: 1.25em;
 }
-
-.social-icon {color:#2b0b16;}
 
 /* avatar */
 .avi {
