@@ -247,7 +247,7 @@ a:hover {
 /* backgrounds */
 
 .bg-destruction {
-  background: linear-gradient( rgba(0,0,0,.35), rgba(0,0,0,.35) ),url("../assets/destruction.webp") 0px/cover no-repeat fixed;
+  background: linear-gradient( rgba(0,0,0,.35), rgba(0,0,0,.35) ),url("../assets/destruction.webp"),black 0px/cover no-repeat fixed;
 }
 
 /* sections */
