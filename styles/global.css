@@ -475,7 +475,7 @@ body.nav-visible .nav{
 
   .nav .nav-close {
     right: initial;
-    left: 307px;
+    left: 306px;
   }
   .nav .nav-wrapper {
     right: calc(100% - 308px);
@@ -492,6 +492,6 @@ body.nav-visible .nav{
     left: initial;
   }
   .nav .nav-wrapper {
-    right: 69px;
+    right: 68px;
   }
 }
