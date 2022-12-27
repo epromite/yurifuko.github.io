@@ -470,7 +470,7 @@ body.nav-visible .nav{
 
 /* responsive css */
 @media (min-width: 782px) {
-  .al {height:8em;scale:1.4;}
+  .al {height:8em;scale:1.55;}
   .avi {scale:0.9;transform: translateY(-15px) translateX(5px);}
 
   .nav .nav-close {
