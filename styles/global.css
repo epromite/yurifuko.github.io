@@ -164,8 +164,8 @@ footer {
 .quote-text {
   opacity: 0.9;
   font-size: 13pt;
-  margin-bottom: 1em;
   font-style: italic;
+  margin-bottom: 0.75em;
 }
 
 /* links */
