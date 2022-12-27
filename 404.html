@@ -2,44 +2,75 @@
 <html>
 
   <head>
-    <title>yurifukō | 404</title>
+    <title>YurifuKō // 404</title>
+  
+    <meta name="author" content="yurifuko" />
+    <meta name="copyright" content="&copy; yurifuko" />
+    <meta name="description" content="Product of lunacy.">
+    <meta name="URL" content="https://yurifuko.github.io" />
 
-    <meta name="Author" content="yurifuko">
-    <meta name="viewport" content="width=device-width,initial-scale=0.8,maximum-scale=1,user-scalable=0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.8, user-scalable=0" />
 
-    <meta charset="utf-8">
+    <link rel="shortcut icon" href="assets/icon.png" />
+    <link rel="icon" href="assets/icon.png" />
+    <link rel="apple-touch-icon" href="assets/icon.png" />
+    <link rel="mask-icon" href="assets/icon.png" />
 
-    <link rel="shortcut icon" href="assets/favicon.png">
-    <link rel="icon" href="assets/favicon.png">
-    <link rel="apple-touch-icon" href="assets/favicon.png">
-    <link rel="mask-icon" href="assets/favicon.png">
+    <meta property="og:site_name" content="yurifuko.github.io" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="yurifukō //" />
+    <meta property="og:description" content="Product of lunacy." />
+    <meta property="og:url" content="https://yurifuko.github.io/" />
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/76652465?v=4" />
 
-    <meta property="og:title" content="yurifuko">
-    <meta content="bio" property="og:description">
-    <meta content="https://yurifuko.github.io/" property="og:url">
-    <meta content="#520514" data-react-helmet="true" name="theme-color">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="yurifukō //" />
+    <meta name="twitter:description" content="Product of lunacy." />
+    <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/76652465?v=4" />
+    
+    <meta content="#0d0103" data-react-helmet="true" name="theme-color" />
 
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/global.css" />
   </head>
-
+ 
   <body>
-    <div style="display: flex;align-items: center;justify-content: center;">
-      <div style="text-align:center;transform: translate(0, -50%);top: 48%;position:absolute;">
-        <h1>404</h1>
-        <p>page not found</p>
+    <header>
+      <button class="nav-trigger" onclick="document.querySelector('body').classList.toggle('nav-visible');"><i class="bi bi-list"></i></button>
+      <nav class="nav">
+        <button class="nav-close" onclick="document.querySelector('body').classList.toggle('nav-visible');"><i class="bi bi-x"></i></button>
+        <div class="nav-wrapper mono">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="https://pixelfed.de/yurifuko">Photos</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="https://www.youtube.com/@yurifuko/videos">Videos</a></li>
+            <li><a href="https://ko-fi.com/yurifuko">Ko-fi</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="center-h">
+      <div class="center-v l-cnt">
+        <h1 class="no-pointer no-select heading heading-special"><b>404</b></h1>
+        <p class="muted">the page you're looking for doesn't exist,<br />you should go home now.</p>
+        <p><a class="gradient-text highlighthover no-select" href="/">戻る</a></p>
       </div>
     </div>
-    <footer style="right:1em;position:fixed;bottom:1em;pointer-events:none;">© <span id="year"></span> yurifuko</footer>
-    <script type="text/javascript">
-      document.getElementById("year").innerHTML = new Date().getFullYear();
-    </script>
-
+    <div class="crn">
+      <footer>&copy; <span id="year"></span> Yurifuko. All Rights Reserved.</footer>
+      <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+      </script>
+    </div>
     <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
     <script>
       kofiWidgetOverlay.draw('yurifuko', {
         'type': 'floating-chat',
-        'floating-chat.donateButton.text': 'Support Me',
-        'floating-chat.donateButton.background-color': '#323842',
+        'floating-chat.donateButton.text': '',
+        'floating-chat.donateButton.background-color': '#32384200',
         'floating-chat.donateButton.text-color': '#fff'
       });
     </script>

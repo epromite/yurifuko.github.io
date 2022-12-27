@@ -2,7 +2,7 @@
 <html>
 
   <head>
-    <title>YurifuKō</title>
+    <title>YurifuKō // About</title>
   
     <meta name="author" content="yurifuko" />
     <meta name="copyright" content="&copy; yurifuko" />
@@ -52,27 +52,57 @@
       </nav>
     </header>
 
-    <div class="center-h">
-      <div class="center-v text-shadow">
-        <div class="l-cnt">
-          <div class="al">
-            <div class="avi"></div>
-            <div class="logo"></div>
-          </div>
-          <div class="no-pointer quote-text"><script src="js/quote.js"></script></div>
-          <div class="socials">
-            <li><a href="mailto:yurifuko@proton.me" target="_blank" rel="noopener noreferrer"><i class="bi bi-envelope-fill icon-social"></i></a></li>
-            <li><a href="https://github.com/yurifuko" target="_blank" rel="noopener noreferrer"><i class="bi bi-github icon-social"></i></a></li>
-            <li><a href="https://www.youtube.com/@yurifuko" target="_blank" rel="noopener noreferrer"><i class="bi bi-youtube icon-social"></i></a></li>
-            <li><a href="https://open.spotify.com/user/31tz7ppsnrxtosagacw5kzzj4gxu" target="_blank" rel="noopener noreferrer"><i class="bi bi-spotify icon-social"></i></a></li>
-            <li><a href="https://ieji.de/@yurifuko" target="_blank" rel="me"><i class="bi bi-mastodon icon-social"></i></a></li>
-            <li><a href="https://discord.gg/ATUuYXV7cn" target="_blank" rel="noopener noreferrer"><i class="bi bi-discord icon-social"></i></a></li>
-            <li><a href="https://matrix.to/#/@yurifuko:matrix.org" target="_blank" rel="noopener noreferrer"><i class="si si-matrix icon-social" style="top:-3.5px;font-size:18pt;"></i></a></li>
-            <li><a href="https://myanimelist.net/profile/yurifuko" target="_blank" rel="noopener noreferrer"><i class="si si-myanimelist icon-social" style="top:-2.5px;font-size:22pt;"></i></a></li>
+    <div class="wrapper">
+      <div class="sec sec-bnr">
+        <script src="js/typed.js"></script>
+        <h1 class="serif italic">I'm <span class="lunatic"></span></h1>
+        <script>
+          var typed = new Typed(".lunatic", {
+            strings: ["a designer", "a developer", "an artist"],
+            typeSpeed: 70,
+            backSpeed: 30,
+            loop: true
+          })
+        </script>
+      </div>
+      <div class="sec sec-bio">
+        <p>
+          Hey, I'm an IT full-time student from Czech Republic.
+          I'm particularly interested in graphic design, free and open source,
+          tinkering with hardware, linux etc.
+        </p>
+        <p>
+          Additionally I'm into music, audio tech, content creation, drawing, photographing and anime.
+        </p>
+      </div>
+      <div class="sec sec-skills">
+        <span class="sp-tx heading-special">Skills //</span>
+        <ul>
+          <li><i class="si si-html5 si--color"></i></li>
+          <li><i class="si si-css3 si--color"></i></li>
+          <li><i class="si si-sass si--color"></i></li>
+          <li><i class="si si-javascript si--color"></i></li>
+          <li><i class="si si-bash si--color"></i></li>
+          <li><i class="si si-python si--color"></i></li>
+          <li><i class="si si-lua si--color"></i></li>
+          <li><i class="si si-git si--color"></i></li>
+          <li><i class="si si-photopea si--color"></i></li>
+          <li><i class="si si-linux si--color"></i></li>
+        </ul>
+      </div>
+      <div class="sec sec-time">
+        <p class="clock-aside"><span class="gradient-text">My current time is</span></p>
+        <div class="clock-container">
+          <div class="clock">
+            <div class="clock-display">
+              <p><span class="mono" id="time"></span></p>
+              <script src="js/mytime.js"></script>
+            </div>
           </div>
         </div>
       </div>
     </div>
+
     <div class="crn">
       <footer>&copy; <span id="year"></span> Yurifuko. All Rights Reserved.</footer>
       <script>
