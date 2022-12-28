@@ -29,6 +29,8 @@
   font-family: 'IBM Plex Mono', monospace;
 }
 
+html {width: 100%;height: 100%;} /*css in webkit is retarded*/
+
 body {
   font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
   text-rendering: optimizeLegibility;
@@ -240,7 +242,8 @@ a:hover {
 /* backgrounds */
 
 .bg-destruction {
-  background: linear-gradient( rgba(0,0,0,.35), rgba(0,0,0,.35) ),url("../assets/destruction.webp"),black 0px/cover no-repeat fixed;
+  background: linear-gradient( rgba(0,0,0,.35), rgba(0,0,0,.35) ),url("../assets/destruction.webp"),black center/cover no-repeat fixed;
+  background-size: cover !important;
 }
 
 /* sections */
