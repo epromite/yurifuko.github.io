@@ -409,7 +409,7 @@ button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disab
   color: var(--ac);
 }
 .nav .nav-wrapper{
-  background:rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.7);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-right:1px solid rgba(255,255,255,0.25);
