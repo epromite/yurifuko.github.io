@@ -1,9 +1,14 @@
 function startTime() {
-  var mytz = new Date().toLocaleString([], { timeZone: "Europe/Prague" });
-  var now = new Date(mytz);
-  var h = now.getHours();
-  var m = now.getMinutes();
-  m = (m < 10 ? "0" : "") + m;
+  var now = new Date();
+  var formatter = new Intl.DateTimeFormat([], {
+    timeZone: "Europe/Prague",
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
+  });
+  var timeString = formatter.format(now);
+  var h = timeString.split(":")[0];
+  var m = timeString.split(":")[1];
   document.getElementById("time").innerHTML = h + ":" + m;
   setTimeout(startTime, 1000);
 }
