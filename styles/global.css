@@ -11,7 +11,7 @@
   --bg-secondary: rgb(29,29,29);
   --bg-tertiary: rgb(44, 44, 44);
   --tx-normal: rgb(238, 243, 235);
-  --tx-muted: rgba(235, 240, 232, 0.712);
+  --tx-muted: rgba(235, 241, 232, 0.712);
   --tx-gradient: linear-gradient(89.97deg,#f32e49 1.84%,#99091c 102.67%);
   --ac: rgb(156, 34, 54);
   --ac-dark: rgb(116, 27, 42);
@@ -39,19 +39,21 @@ body {
   color: var(--tx-normal);
 
   height: 100%;
-  margin: 0 auto;
+  margin: auto;
 }
 
 h1, p {margin-top: 1rem;margin-bottom: 1rem;}
 
 .wrapper {
   max-width: 800px;
-  margin: 0 auto;
+  margin: auto;
   padding: 3em 1.5em 3em 1.5em;
 
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   background-color: rgba(0, 0, 0, 0.644);
+
+  min-height: calc(100vh - 6em);
 }
 
 ::selection,::-moz-selection {
@@ -260,6 +262,7 @@ a:hover {
   color: var(--bg);
   background-color: rgba(255, 255, 255, 0.9);
   padding: 1em 4em;
+  margin-top: 1em;
 }
 .sec-bnr > h1 {z-index: 1;position: relative;}
 .sec-bnr::before {
@@ -300,7 +303,7 @@ a:hover {
 .sec-time {
   margin: 1em auto 0 auto;
   width: max-content;
-  min-height: 4em;
+  min-height: 5.75em;
 }
 
 /* clock */
@@ -409,9 +412,7 @@ button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disab
   color: var(--ac);
 }
 .nav .nav-wrapper{
-  background: rgba(0, 0, 0, 0.7);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  background: rgba(0, 0, 0, 0.9);
   border-right:1px solid rgba(255,255,255,0.25);
   bottom:0;
   left:0;
@@ -464,8 +465,8 @@ body.nav-visible .nav{
   -webkit-transform-origin:left top;
   transform: translateX(0);
   transform-origin: left top;
-  backdrop-filter: blur(3px) brightness(70%);
-  -webkit-backdrop-filter: blur(3px) brightness(70%);
+  backdrop-filter: blur(5px) brightness(70%);
+  -webkit-backdrop-filter: blur(5px) brightness(70%);
 }
 
 /* responsive css */
