@@ -97,7 +97,7 @@ footer {
 }
 
 /* scrollbar */
-* {scrollbar-color: var(--ac-dark) transparent;}
+* {scrollbar-color: var(--ac-dark) transparent;scrollbar-width: thin;}
 ::-webkit-scrollbar,::-webkit-scrollbar-corner,::-webkit-scrollbar-track {
   background: transparent;
   width: 8px;
