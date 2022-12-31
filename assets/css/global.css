@@ -176,7 +176,7 @@ a:hover {
 
 /* logo + stuffs */
 .logo {
-  background-image: url("../assets/yf_n.png");
+  background-image: url("../yf_n.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -189,7 +189,7 @@ a:hover {
   -webkit-transition: all .3s ease-in-out;
 }
 .avi {
-  background-image: url("../assets/renge.webp");
+  background-image: url("../renge.webp");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -242,7 +242,7 @@ a:hover {
 /* backgrounds */
 
 .bg-destruction {
-  background: linear-gradient( rgba(0,0,0,.35), rgba(0,0,0,.35) ),url("../assets/destruction.webp"),black center/cover no-repeat fixed;
+  background: linear-gradient( rgba(0,0,0,.35), rgba(0,0,0,.35) ),url("../destruction.webp"),black center/cover no-repeat fixed;
   background-size: cover !important;
 }
 
@@ -261,7 +261,7 @@ a:hover {
 .sec-bnr > h1 {z-index: 1;position: relative;}
 .sec-bnr::before {
   content: '';
-  background-image: url("../assets/rengepeek.webp");
+  background-image: url("../rengepeek.webp");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 90%;
@@ -318,7 +318,7 @@ a:hover {
   text-align: center;
   perspective: 45em;
   float: right;
-  background-image: url("../assets/clock.webp");
+  background-image: url("../clock.webp");
   background-size: contain;
   background-repeat: no-repeat;
 }
